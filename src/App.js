@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 
@@ -7,6 +8,9 @@ const App = () => {
     <>
       <Navbar />
       <Menu />
+      <Header />
+
+      <div className="vh-100"></div>
     </>
   );
 };

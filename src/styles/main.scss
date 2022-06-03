@@ -107,6 +107,7 @@ html {
                     justify-content: center;
                     border-right: 1px solid #9797972f;
                     position: relative;
+                    cursor: pointer;
 
                     &::after {
                         content: '';
@@ -196,6 +197,7 @@ html {
                 margin-left: auto;
                 font-weight: 600;
                 font-size: 15px;
+                cursor: pointer;
             }
 
             .burger {
@@ -218,6 +220,40 @@ html {
                 top: -55px;
                 left: 50%;
                 transform: translateX(-50%);
+            }
+        }
+
+        .header {
+            // padding: 50px 0;
+            text-align: center;
+            background-image: url(../images/header.png);
+
+            h6 {
+                color: #eeecec;
+                font-size: 20px;
+                margin-top: 160px;
+            }
+
+            h1 {
+                font-size: 60px;
+                color: #fff;
+            }
+
+            h2 {
+                font-size: 30px;
+                color: $pink;
+            }
+
+            h3 {
+                color: #f3f3f3;
+                font-size: 20px;
+            }
+
+            .btn {
+                font-size: 18px;
+                color: #fff;
+                background-color: $blue;
+                margin-bottom: 160px;
             }
         }
     }
