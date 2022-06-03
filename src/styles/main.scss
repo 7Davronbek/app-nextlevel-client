@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,300&family=Montserrat:wght@400;500;600&display=swap');
+
 $blue: #640C9E;
 $pink: #EE1D7A;
 $secondaryWhite: #F8F8F8;
@@ -28,7 +30,7 @@ html {
     body {
         background-color: #e5e5e5;
         color: #222;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Montserrat', sans-serif;
 
         ul,
         li {
@@ -76,6 +78,11 @@ html {
                 text-decoration: none !important;
                 color: #ccc;
             }
+        }
+
+        .navBar {
+            padding: 20px 0;
+            background-color: #161616;
         }
     }
 }
