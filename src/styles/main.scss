@@ -1,0 +1,81 @@
+$blue: #640C9E;
+$pink: #EE1D7A;
+$secondaryWhite: #F8F8F8;
+
+html {
+
+    ::selection {
+        background-color: $blue;
+        color: #fff;
+    }
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #e5e5e5;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: $blue;
+        border-radius: 5px;
+    }
+
+    body {
+        background-color: #e5e5e5;
+        color: #222;
+        font-family: 'Raleway', sans-serif;
+
+        ul,
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0 !important;
+        }
+
+        .card {
+            background-color: transparent;
+            border: 0;
+            padding: 0;
+
+            .card-body {
+                background-color: transparent;
+                border: 0;
+                padding: 0;
+            }
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin-bottom: 0;
+        }
+
+        img {
+            user-select: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            outline: none !important;
+
+            &:hover {
+                text-decoration: none !important;
+                color: #ccc;
+            }
+        }
+    }
+}
