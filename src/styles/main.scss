@@ -80,9 +80,31 @@ html {
             }
         }
 
+        .container {
+            max-width: 1440px;
+        }
+
         .navBar {
-            padding: 20px 0;
+            // padding: 20px 0;
             background-color: #161616;
+
+            h6 {
+                color: #818181;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                margin-right: 30px;
+            }
+
+            .socials {
+                display: flex;
+                align-items: center;
+
+                span {
+                    padding: 0 12px;
+                    border-right: 1px solid #979797;
+                }
+            }
         }
     }
 }
