@@ -99,7 +99,7 @@ html {
                 align-items: center;
                 margin-right: 40px;
 
-                span { 
+                span {
                     height: 50px;
                     width: 40px;
                     display: flex;
@@ -169,6 +169,55 @@ html {
                     border-left: 1px solid #9797972f;
                     padding: 0 20px;
                 }
+            }
+        }
+
+        .menu {
+            position: relative;
+            background-color: #fff;
+
+            .search {
+                width: 60px;
+                border-right: 1px solid silver;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h6 {
+                color: #fff;
+                background-color: $blue;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 20px;
+                margin-left: auto;
+                font-weight: 600;
+                font-size: 15px;
+            }
+
+            .burger {
+                color: #333333;
+                font-size: 14px;
+                padding-right: 25px;
+                border-right: 1px solid silver;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                span {
+                    margin-right: 10px;
+                }
+            }
+
+            .logo {
+                position: absolute;
+                top: -55px;
+                left: 50%;
+                transform: translateX(-50%);
             }
         }
     }
