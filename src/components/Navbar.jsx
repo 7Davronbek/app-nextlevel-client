@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className="navBar">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 d-flex aling-items-center">
+                        <div className="col-12 d-flex align-items-center">
 
                             <h6>Stay Connected:</h6>
 
@@ -17,11 +17,15 @@ const Navbar = () => {
                                 <span><img src="/assets/image/g.png" alt="" /></span>
                             </div>
 
-                            <a href="!#">Advertise</a>
-                            <a href="!#">Support Forum </a>
-                            <a href="!#">Contact </a>
+                            <div className="leftSide">
 
-                            <div className="ms-auto">
+                                <a href="!#">ADVERTISE</a>
+                                <a href="!#">SUPPORT FORUM </a>
+                                <a href="!#">CONTACT</a>
+                            
+                            </div>
+
+                            <div className="ms-auto rightSide">
                                 <a href="!#"><span className="me-3"><img src="/assets/image/phone.png" alt="" /></span> 998 90 000 00 00</a>
                                 <a href="!#">English</a>
                             </div>
