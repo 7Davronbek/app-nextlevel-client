@@ -275,5 +275,28 @@ html {
                 box-shadow: none;
             }
         }
+
+        .aboutUs {
+            padding: 200px 0 70px;
+
+            h1 {
+                font-size: 17px;
+                color: $pink;
+                font-weight: 300;
+                font-style: italic;
+                font-family: 'Fira Sans Condensed', sans-serif;
+                text-transform: uppercase;
+            }
+
+            h2 {
+                font-size: 40px;
+                color: #333;
+            }
+
+            h3 {
+                color: #333;
+                font-size: 26px;
+            }
+        }
     }
 }
