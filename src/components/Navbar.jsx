@@ -13,8 +13,8 @@ const Navbar = () => {
                             <div className="socials">
                                 <span><img src="/assets/image/f.png" alt="" /></span>
                                 <span><img src="/assets/image/twit.png" alt="" /></span>
-                                <span><img src="/assets/image/ln.png" alt="" /></span>
-                                <span><img src="/assets/image/g.png" alt="" /></span>
+                                <span><img src="/assets/image/tg.png" alt="" /></span>
+                                <span><img src="/assets/image/insta.png" alt="" /></span>
                             </div>
 
                             <div className="leftSide">
@@ -22,7 +22,7 @@ const Navbar = () => {
                                 <a href="!#">ADVERTISE</a>
                                 <a href="!#">SUPPORT FORUM </a>
                                 <a href="!#">CONTACT</a>
-                            
+
                             </div>
 
                             <div className="ms-auto rightSide">

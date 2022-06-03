@@ -143,6 +143,11 @@ html {
             a {
                 color: #d7d7d7;
                 font-size: 14px;
+                transition: all .2s ease;
+
+                &:hover {
+                    color: $blue;
+                }
             }
 
             .leftSide {
