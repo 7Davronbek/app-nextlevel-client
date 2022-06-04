@@ -11,7 +11,7 @@ const Header = () => {
                             <h1>Рекламно производственная компания </h1>
                             <h2>Looking for an Agency?</h2>
                             <h3>Explore the world’s leading local and global agencies to find the one that suits your needs.</h3>
-                            <button className="btn">Подробнее</button>
+                            <button className="btn myBtn">Подробнее</button>
 
                     </div>
                 </div>

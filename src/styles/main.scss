@@ -84,6 +84,16 @@ html {
             max-width: 1440px;
         }
 
+        .myBtn {
+            font-weight: 600;
+            border-radius: 0;
+            box-shadow: none;
+            font-size: 18px;
+            color: #fff;
+            background-color: $blue;
+            padding: 23px 45px;
+        }
+
         .navBar {
             // padding: 20px 0;
             background-color: #161616;
@@ -265,14 +275,7 @@ html {
             }
 
             .btn {
-                font-size: 18px;
-                color: #fff;
-                background-color: $blue;
                 margin-bottom: 160px;
-                padding: 23px 45px;
-                font-weight: 600;
-                border-radius: 0;
-                box-shadow: none;
             }
         }
 
@@ -296,6 +299,16 @@ html {
             h3 {
                 color: #333;
                 font-size: 26px;
+            }
+
+            h4,
+            h5 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            .btn {
+                font-size: 15px;
             }
         }
     }
