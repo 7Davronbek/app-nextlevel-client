@@ -4,6 +4,15 @@ $blue: #640C9E;
 $pink: #EE1D7A;
 $secondaryWhite: #F8F8F8;
 
+@font-face {
+    font-family: "Pervitina-Bold";
+    src: url("../fonts/Pervitina.ttf") format("truetype");
+}
+
+.bold {
+    font-family: "Pervitina-Bold";
+}
+
 html {
 
     ::selection {
@@ -78,6 +87,19 @@ html {
                 text-decoration: none !important;
                 color: #ccc;
             }
+        }
+
+        .nextLevel {
+            transform: rotate(-90deg);
+            position: fixed;
+            right: -185px;
+            font-size: 60px;
+            letter-spacing: 10px;
+            top: 50%;
+            z-index: -1;
+            font-weight: 600;
+            font-style: italic;
+            color: #bbb7b7;
         }
 
         .h1 {

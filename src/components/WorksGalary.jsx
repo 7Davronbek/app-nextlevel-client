@@ -7,13 +7,15 @@ const WorksGalary = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">
-                            <h1 className="h1">Наши работы <span>OUR WORKS</span></h1>
+                            <h1 className="h1">Наши работы
+                                {/* <span>OUR WORKS</span> */}
+                            </h1>
                             <h2>Best Agencies By Region</h2>
                         </div>
                     </div>
 
                     <div className="row">
-                        
+
                         <div className="col-lg-4 col-md-6 mb-4">
                             <div className="cards">
                                 <img src="/assets/image/card.jpeg" alt="" className="w-100" />
