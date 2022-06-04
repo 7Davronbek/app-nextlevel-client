@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,300&family=Open+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,300&family=Leckerli+One&family=Open+Sans:wght@400;500;600&display=swap');
 
 $blue: #640C9E;
 $pink: #EE1D7A;
@@ -77,6 +77,22 @@ html {
             &:hover {
                 text-decoration: none !important;
                 color: #ccc;
+            }
+        }
+
+        .h1 {
+            position: relative;
+
+            span {
+                font-family: 'Leckerli One', cursive;
+                color: #7c7c7c1c;
+                text-transform: uppercase;
+                position: absolute;
+                font-size: 85px;
+                right: 50%;
+                top: -45px;
+                user-select: none;
+                z-index: -1;
             }
         }
 
@@ -454,7 +470,7 @@ html {
         }
 
         .worksGalary {
-            padding: 100px 0 50px;
+            padding: 150px 0 50px;
 
             h1 {
                 font-weight: 600;
@@ -466,6 +482,33 @@ html {
                 font-weight: 300;
                 font-style: italic;
                 color: $pink;
+                margin-bottom: 60px;
+            }
+
+            .cards {
+
+                .content {
+                    width: 86%;
+                    margin: auto;
+                    transform: translateY(-40px);
+                    box-shadow: 1px 3px 40px #c0c0c07d;
+                    background: #f3f3f3;
+                    border-radius: 10px;
+                    text-align: center;
+                    padding: 30px 10px;
+                }
+
+                h3 {
+                    font-size: 20px;
+                    color: #333333;
+                    font-weight: 600;
+                }
+
+                h4 {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: $pink;
+                }
             }
         }
     }
