@@ -295,6 +295,7 @@ html {
             h2 {
                 font-size: 40px;
                 color: #333;
+                text-transform: uppercase;
             }
 
             h3 {
@@ -318,6 +319,7 @@ html {
             .wrap {
                 position: relative;
                 height: 400px;
+                transform: translateX(-30px) scale(1.1);
 
                 .design,
                 .strategy,
@@ -325,9 +327,9 @@ html {
                 .public,
                 .third,
                 .ten,
-                .fifth
-                // .mid
-                {
+                .fifth // .mid
+
+                    {
                     font-size: 14px;
                     color: #fff;
                     // background-color: red;
@@ -337,6 +339,7 @@ html {
                     justify-content: center;
                     border-radius: 50%;
                     text-align: center;
+                    // transform: translateX(-50px) scale(1.1);
                 }
 
                 .design {
@@ -345,8 +348,7 @@ html {
                     color: #000;
                     background-color: #FFCA05;
                     top: 0;
-                    left: 50%;
-                    transform: translateX(-50%);
+                    left: 215px;
                 }
 
                 .strategy {
@@ -354,7 +356,7 @@ html {
                     height: 105px;
                     background-color: #A5CF33;
                     top: 10px;
-                    right: 80px;
+                    right: 110px;
                 }
 
                 .km {
@@ -362,7 +364,7 @@ html {
                     height: 145px;
                     color: #fff;
                     background-color: #6A63A1;
-                    right: 0;
+                    right: 30px;
                     top: 135px;
                 }
 
@@ -379,9 +381,40 @@ html {
                     width: 150px;
                     height: 150px;
                     background-color: #E65F25;
-                    bottom: 0;
-                    left: 155px;
                     color: #fff;
+                    left: 132px;
+                    bottom: -45px;
+                }
+
+                .ten {
+                    background-color: #2790B0;
+                    width: 100px;
+                    height: 100px;
+                    top: 190px;
+                    left: 10px;
+                }
+
+                .fifth {
+                    width: 160px;
+                    height: 160px;
+                    background: #D12B51;
+                    top: -25px;
+                    left: 21px;
+                }
+
+                .mid {
+                    position: absolute;
+                    top: 100px;
+                    left: 170px;
+
+                    p {
+                        font-size: 23px;
+                        color: #fff;
+                        font-weight: 600;
+                        position: absolute;
+                        top: 72px;
+                        left: 65px;
+                    }
                 }
             }
         }

@@ -15,7 +15,7 @@ const AboutUs = () => {
                                 <div className="third">30+ Квалифицированных сотрудников </div>
                                 <div className="ten">10 лет опыта</div>
                                 <div className="fifth">5000+ Реализованных  проектов  в год </div>
-                                {/* <div className="mid"><img src="/assets/image/aboutShape.png" alt="" /></div> */}
+                                <div className="mid"><img src="/assets/image/aboutShape.png" alt="" /> <p>О  НАС</p></div>
                             </div>
                         </div>
                         <div className="col-lg-5 text-center">
