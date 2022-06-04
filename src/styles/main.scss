@@ -421,6 +421,11 @@ html {
 
         .benefits {
 
+            .myRow {
+                background-color: $blue;
+                padding: 55px 0;
+            }
+
             .cards {
                 display: flex;
                 align-items: center;
@@ -428,7 +433,7 @@ html {
                 .left {
                     width: 50px;
                     height: 50px;
-                    margin-right: 20px;
+                    margin-right: 35px;
 
                     img {
                         width: 100%;
@@ -443,6 +448,7 @@ html {
                 h3 {
                     font-size: 20px;
                     color: #fff;
+                    margin-top: 6px;
                 }
             }
         }
