@@ -13,6 +13,7 @@ const WorksGalary = () => {
                     </div>
 
                     <div className="row">
+                        
                         <div className="col-lg-4 col-md-6 mb-4">
                             <div className="cards">
                                 <img src="/assets/image/card.jpeg" alt="" className="w-100" />
@@ -22,51 +23,57 @@ const WorksGalary = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 mb-4">
                             <div className="cards">
                                 <img src="/assets/image/card.jpeg" alt="" className="w-100" />
                                 <div className="content">
-                                    <h3>6S Marketing</h3>
-                                    <h4>Europe</h4>
+                                    <h3>Grow Digital Services</h3>
+                                    <h4>Mena</h4>
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 mb-4">
                             <div className="cards">
                                 <img src="/assets/image/card.jpeg" alt="" className="w-100" />
                                 <div className="content">
-                                    <h3>6S Marketing</h3>
-                                    <h4>Europe</h4>
+                                    <h3>Adelphi Digital</h3>
+                                    <h4>Asia</h4>
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 mb-4">
                             <div className="cards">
                                 <img src="/assets/image/card.jpeg" alt="" className="w-100" />
                                 <div className="content">
-                                    <h3>6S Marketing</h3>
-                                    <h4>Europe</h4>
+                                    <h3>Edenspiekermann</h3>
+                                    <h4>Canada</h4>
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 mb-4">
                             <div className="cards">
                                 <img src="/assets/image/card.jpeg" alt="" className="w-100" />
                                 <div className="content">
-                                    <h3>6S Marketing</h3>
-                                    <h4>Europe</h4>
+                                    <h3>Get Started</h3>
+                                    <h4>Australia</h4>
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 mb-4">
                             <div className="cards">
                                 <img src="/assets/image/card.jpeg" alt="" className="w-100" />
                                 <div className="content">
-                                    <h3>6S Marketing</h3>
-                                    <h4>Europe</h4>
+                                    <h3>Momentum Design</h3>
+                                    <h4>Canada</h4>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
