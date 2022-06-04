@@ -452,5 +452,21 @@ html {
                 }
             }
         }
+
+        .worksGalary {
+            padding: 100px 0 50px;
+
+            h1 {
+                font-weight: 600;
+                font-size: 48px;
+            }
+
+            h2 {
+                font-size: 17px;
+                font-weight: 300;
+                font-style: italic;
+                color: $pink;
+            }
+        }
     }
 }
