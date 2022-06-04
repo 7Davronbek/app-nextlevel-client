@@ -89,6 +89,12 @@ html {
             }
         }
 
+        .fira {
+            font-weight: 300;
+            font-style: italic;
+            font-family: 'Fira Sans Condensed', sans-serif;
+        }
+
         .nextLevel {
             transform: rotate(-90deg);
             position: fixed;
@@ -531,6 +537,60 @@ html {
                     font-weight: 300;
                     color: $pink;
                     margin-top: 7px;
+                }
+            }
+        }
+
+        .sumbitAgency {
+            padding-bottom: 80px;
+
+            .cards {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .btn {
+                    margin-right: 15px;
+                    font-size: 15px;
+                    text-transform: uppercase;
+
+                    &.pink {
+                        background-color: $pink;
+                    }
+
+                    &.black {
+                        background-color: #1D1D1D;
+
+                        &:hover {
+                            color: $pink;
+                        }
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+
+                .left {
+                    display: flex;
+                    align-items: center;
+
+                    h1 {
+                        font-size: 17px;
+                        color: $pink;
+                    }
+
+                    h2 {
+                        font-weight: 600;
+                        font-size: 30px;
+                    }
+                }
+
+                h3 {
+                    width: 28%;
+                    font-size: 17px;
+                    font-weight: 600;
+                    line-height: 28px;
                 }
             }
         }

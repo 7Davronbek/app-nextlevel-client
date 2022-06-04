@@ -4,6 +4,7 @@ import Benefits from "./components/Benefits";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
+import SumbitAgency from "./components/SumbitAgency";
 import WorksGalary from "./components/WorksGalary";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <AboutUs />
       <Benefits />
       <WorksGalary />
+      <SumbitAgency />
       <div className="vh-100"></div>
     </>
   );
