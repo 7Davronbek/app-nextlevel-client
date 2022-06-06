@@ -128,6 +128,8 @@ const LookingFor = () => {
                                 </div>
 
                             </div>
+
+                            <div className="btn">View More Jobs</div>
                         </div>
                     </div>
                 </div>
