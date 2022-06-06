@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,300&family=Leckerli+One&family=Open+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,300&family=Leckerli+One&family=Open+Sans:wght@400;500;600;700&display=swap');
 
 $blue: #640C9E;
-$pink: #EE1D7A;
+$pink: #ee1d7a;
 $secondaryWhite: #F8F8F8;
 
 @font-face {
@@ -596,13 +596,14 @@ html {
         }
 
         .lookingFor {
-            background-color: red;
-            height: 300px;
+            background-color: #111;
+            height: 740px;
             padding-top: 100px;
 
             h1 {
                 font-size: 40px;
                 color: #fff;
+                text-align: center;
             }
 
             h2 {
@@ -610,6 +611,64 @@ html {
                 color: $pink;
                 margin-top: 7px;
                 margin-bottom: 50px;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .cards {
+                background: #fff;
+                padding: 50px 50px 30px;
+                box-shadow: 1px 3px 40px #c0c0c07d;
+
+                .cardsTop {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 50px;
+
+                    .img {
+                        width: 100px;
+                        height: 100px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    h6 {
+                        color: $pink;
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+
+                    h5 {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+
+                    h4 {
+                        font-size: 15px;
+                        margin-top: 7px;
+                        color: $pink;
+                        font-weight: 600;
+                    }
+
+                    i {
+                        margin-right: 11px;
+                    }
+
+                    b {
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        color: #8e8e8e;
+                    }
+                }
             }
         }
     }
