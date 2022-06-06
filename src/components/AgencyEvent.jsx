@@ -42,7 +42,7 @@ const AgencyEvent = () => {
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
-                                    <div className="row">
+                                    <div className="row align-items-center">
                                         <div className="col-lg-6">
                                             <div className="wrap ">
                                                 <div><div className="myBtn">Social Media Events</div>
@@ -53,7 +53,7 @@ const AgencyEvent = () => {
                                                         <h6 className="fira">06 September, 2017</h6>
                                                     </div>
                                                     <p>The Social Media Strategies Summit New York is the must-attend event for marketers. This 3-day event features hands-on intensive workshops, talks, and how-to tutorials.</p>
-                                                    <a href="!#">Read More</a>
+                                                    <a className='fira' href="!#">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
