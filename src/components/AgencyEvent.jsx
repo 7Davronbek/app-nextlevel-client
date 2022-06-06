@@ -42,19 +42,25 @@ const AgencyEvent = () => {
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
-                                    <div className="wrap ">
-                                        <div><div className="myBtn">Social Media Events</div>
-                                            <h3>Social Media Strategies Summit New York 2017</h3>
-                                            <div className="d-flex align-items-center justify-content-end">
-                                                <h6 className="fira">New York</h6>
-                                                <div className="i"></div>
-                                                <h6 className="fira">06 September, 2017</h6>
+                                    <div className="row">
+                                        <div className="col-lg-6">
+                                            <div className="wrap ">
+                                                <div><div className="myBtn">Social Media Events</div>
+                                                    <h3>Social Media Strategies Summit New York 2017</h3>
+                                                    <div className="d-flex align-items-center justify-content-end mb-4">
+                                                        <h6 className="fira">New York</h6>
+                                                        <div className="i"></div>
+                                                        <h6 className="fira">06 September, 2017</h6>
+                                                    </div>
+                                                    <p>The Social Media Strategies Summit New York is the must-attend event for marketers. This 3-day event features hands-on intensive workshops, talks, and how-to tutorials.</p>
+                                                    <a href="!#">Read More</a>
+                                                </div>
                                             </div>
-                                            <p>The Social Media Strategies Summit New York is the must-attend </p>
-                                            <a href="!#">Read More</a>
                                         </div>
-                                        <div className='img'>
-                                            <img src="/assets/image/card.jpeg" alt="" />
+                                        <div className="col-lg-6">
+                                            {/* <div className='img'> */}
+                                            <img className='w-100' src="/assets/image/card.jpeg" alt="" />
+                                            {/* </div> */}
                                         </div>
                                     </div>
                                 </SwiperSlide>

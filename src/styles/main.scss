@@ -136,6 +136,7 @@ html {
             color: #fff;
             background-color: $blue;
             padding: 23px 45px;
+            cursor: pointer;
         }
 
         .navBar {
@@ -724,11 +725,24 @@ html {
                 h3 {
                     font-size: 22px;
                     font-weight: 700;
+                    margin: 20px 0 15px;
                 }
 
                 h4 {
                     font-size: 15px;
                     color: $pink;
+                }
+
+                h6 {
+                    font-size: 15px;
+                    color: $pink;
+                }
+
+                .i {
+                    margin: 0 25px;
+                    width: 4px;
+                    height: 4px;
+                    background-color: #555;
                 }
 
                 p {
@@ -751,12 +765,12 @@ html {
                     align-items: center;
                     justify-content: center;
                     text-align: center;
-                    margin-bottom: 20px;
                 }
 
                 .img {
                     width: 430px;
                     height: 470px;
+                    margin-left: 30px;
 
                     img {
                         width: 100%;
