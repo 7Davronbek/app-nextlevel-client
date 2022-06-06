@@ -89,6 +89,24 @@ html {
             }
         }
 
+        .titles {
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+                color: #333;
+                text-align: center;
+                margin-bottom: 7px;
+            }
+
+            h2 {
+                font-size: 17px;
+                color: $pink;
+                text-align: center;
+                font-weight: 600;
+                margin-bottom: 50px;
+            }
+        }
+
         .fira {
             font-weight: 300;
             font-style: italic;
@@ -727,21 +745,7 @@ html {
                 left: 65px;
             }
 
-            h1 {
-                font-size: 40px;
-                font-weight: 700;
-                color: #333;
-                text-align: center;
-                margin-bottom: 7px;
-            }
 
-            h2 {
-                font-size: 17px;
-                color: $pink;
-                text-align: center;
-                font-weight: 600;
-                margin-bottom: 50px;
-            }
 
             .wrap {
                 display: flex;
@@ -832,6 +836,193 @@ html {
 
             .myBtn {
                 display: inline-block;
+            }
+
+            .cardsWrap {
+                margin-top: 50px;
+
+                .cards {
+                    padding: 60px;
+
+                    h6 {
+                        color: $pink;
+                        font-size: 15px;
+                        margin-bottom: 14px;
+                    }
+
+                    h4 {
+                        font-size: 22px;
+                        font-weight: 700;
+                        margin-bottom: 15px;
+                    }
+
+                    h5 {
+                        font-size: 14px;
+                        color: $pink;
+                        margin-bottom: 15px;
+
+                        span {
+                            color: #bebebe;
+                            font-style: italic;
+                        }
+                    }
+
+                    .square {
+                        width: 5px;
+                        height: 5px;
+                        background: #333;
+                        margin: 0 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #444444;
+                    }
+
+                    a {
+                        font-size: 13px;
+                        color: $pink;
+                    }
+
+
+                    &.img-bor {
+                        height: 100%;
+                        position: relative;
+                        padding: 0;
+
+                        h3 {
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            font-size: 15px;
+                            padding: 15px 20px;
+                            background: $blue;
+                            color: $secondaryWhite;
+                        }
+
+                        img {
+                            height: 100%;
+                            object-fit: cover;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .Footer {
+            margin-top: 100px;
+            padding: 100px 0;
+            background: #000;
+
+            h1 {
+                color: #fff;
+
+                span {
+                    color: $pink;
+                }
+            }
+
+            .logo {
+            margin-bottom: 30px;
+            .log-p{
+                color: #8f8f8f;
+                font-size: 15px;
+            }
+            }
+
+            .email {
+                input {
+                    font-size: 70px;
+                    color: #5b5b5b;
+                    background: none;
+                    border: none;
+                    letter-spacing: -5px;
+                    text-align: center;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                .send {
+                    margin: 40px 0;
+
+                    button {
+                        font-size: 15px;
+                        font-weight: 700;
+                        color: $secondaryWhite;
+                        padding: 20px 30px;
+                        background: $blue;
+                        border: none;
+                    }
+                }
+            }
+
+            .widget {
+                color: #fff;
+
+                .widget-title {
+                    font-size: 18px;
+                    margin-bottom: 30px;
+                    font-weight: 700;
+                }
+
+                .footer-links {
+                    a {
+                        color: #8f8f8f;
+                        font-size: 15px;
+                        transition: all ease 0.5s;
+
+                        &:hover {
+                           padding-left: 20px;
+                            color: $pink;
+                        }
+                    }
+                }
+                .footer-contact{
+                    margin-bottom: 20px;
+                    padding-bottom: 20px;
+                    display: inline-block;
+                    border-bottom: 1px solid #8f8f8fd8;
+                    a{
+                        font-size: 21px;
+                        font-weight: 700;
+                        letter-spacing: -2px;
+                        line-height: 20px;
+                        text-align: right;
+                    }
+                    span{
+                        font-size: 14px;
+                        text-align: right;
+                    }
+                }
+                .footer-social{
+                        a{
+                            margin-right: 30px;
+                           font-size: 25px;
+                            transition: ease 0.3s all;
+                           &:hover{
+                               animation: anim 0.5s ease-in;
+                               color: $pink;
+                               transform: scale(1.5);
+                           }
+                        }
+                    h6{
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+                    // @keyframes anim {
+                    //     0%{
+                    //         transform: rotate(0);
+                    //     }
+                    //     100%{
+                    //         transform: rotate(360deg);
+                    //     }
+                    // }
+                }
             }
         }
     }

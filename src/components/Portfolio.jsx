@@ -20,22 +20,69 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className="row">
-                        <div className="cardsWrap">
-                            <div className="cards">
-                                <h3>06 September, 2017</h3>
-                                <h4>Google On An Innovative VR Series, Named </h4>
-                                <div className="d-flex align-items-center">
-                                    <h5>by  James Hacon</h5>
-                                    <div className="square"></div>
-                                    <h5>10 Comments</h5>
+                    <div className="cardsWrap">
+                        <div className="row justify-content-center">
+                            <div className="col-3 p-0">
+                                <div className="cards">
+                                    <h6 className='fira'>06 September, 2017</h6>
+                                    <h4>Google On An Innovative VR Series, Named </h4>
+                                    <div className="d-flex align-items-center">
+                                        <h5 className='fira'><span>by</span>  James Hacon</h5>
+                                        <div className="square"></div>
+                                        <h5 className='fira'>10 Comments</h5>
+                                    </div>
+                                    <p>The Social Media Strategies Summit for marketers. This 3-day event feat-ures talks, and how-to tutorials.</p>
+                                    <a className='fira' href="!#">Read More</a>
                                 </div>
-                                <p>The Social Media Strategies Summit for marketers. This 3-day event feat-ures talks, and how-to tutorials.</p>
-                                <a href="!#">Read More</a>
                             </div>
-                            <div className="cards">
+                            <div className="col-3 p-0">
+                                <div className="cards img-bor">
+                                    <h3>Social Media News</h3>
+                                    <img className='w-100' src="/assets/image/card.jpeg" alt="" />
+                                </div>
+                            </div>
+                            <div className="col-3 p-0">
+                                <div className="cards">
+                                    <h6 className='fira'>06 September, 2017</h6>
+                                    <h4>Google On An Innovative VR Series, Named </h4>
+                                    <div className="d-flex align-items-center">
+                                        <h5 className='fira'><span>by</span>   James Hacon</h5>
+                                        <div className="square"></div>
+                                        <h5 className='fira'>10 Comments</h5>
+                                    </div>
+                                    <p>The Social Media Strategies Summit for marketers. This 3-day event feat-ures talks, and how-to tutorials.</p>
+                                    <a className='fira' href="!#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row justify-content-center">
+                            <div className="col-3 p-0">
+                                <div className="cards img-bor">
+                                    <h3>Social Media News</h3>
+                                    <img className='w-100' src="/assets/image/card.jpeg" alt="" />
+                                </div>
+                            </div>
+                            <div className="col-3 p-0">
+                                <div className="cards">
+                                    <h6 className='fira'>06 September, 2017</h6>
+                                    <h4>Google On An Innovative VR Series, Named </h4>
+                                    <div className="d-flex align-items-center">
+                                        <h5 className='fira'><span>by</span>  James Hacon</h5>
+                                        <div className="square"></div>
+                                        <h5 className='fira'>10 Comments</h5>
+                                    </div>
+                                    <p>The Social Media Strategies Summit for marketers. This 3-day event feat-ures talks, and how-to tutorials.</p>
+                                    <a className='fira' href="!#">Read More</a>
+                                </div>
+                            </div>
 
+                            <div className="col-3 p-0">
+                                <div className="cards img-bor">
+                                    <h3>Social Media News</h3>
+                                    <img className='w-100' src="/assets/image/card.jpeg" alt="" />
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
