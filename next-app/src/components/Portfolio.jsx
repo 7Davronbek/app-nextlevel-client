@@ -33,9 +33,6 @@ const Portfolio = () => {
                                 <p>The Social Media Strategies Summit for marketers. This 3-day event feat-ures talks, and how-to tutorials.</p>
                                 <a href="!#">Read More</a>
                             </div>
-                            <div className="cards">
-                                
-                            </div>
                         </div>
                     </div>
                 </div>
