@@ -2,6 +2,7 @@ import React from "react";
 import AboutUs from "./components/AboutUs";
 import Benefits from "./components/Benefits";
 import Header from "./components/Header";
+import LookingFor from "./components/LookingFor";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 import SumbitAgency from "./components/SumbitAgency";
@@ -17,6 +18,7 @@ const App = () => {
       <Benefits />
       <WorksGalary />
       <SumbitAgency />
+      <LookingFor />
       <div className="vh-100"></div>
     </>
   );

@@ -594,5 +594,23 @@ html {
                 }
             }
         }
+
+        .lookingFor {
+            background-color: red;
+            height: 300px;
+            padding-top: 100px;
+
+            h1 {
+                font-size: 40px;
+                color: #fff;
+            }
+
+            h2 {
+                font-size: 17px;
+                color: $pink;
+                margin-top: 7px;
+                margin-bottom: 50px;
+            }
+        }
     }
 }
