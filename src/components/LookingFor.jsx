@@ -4,6 +4,7 @@ const LookingFor = () => {
     return (
         <>
             <div className="lookingFor">
+                <div className="span"></div>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

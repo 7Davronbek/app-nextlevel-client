@@ -1,5 +1,6 @@
 import React from "react";
 import AboutUs from "./components/AboutUs";
+import AgencyEvent from "./components/AgencyEvent";
 import Benefits from "./components/Benefits";
 import Header from "./components/Header";
 import LookingFor from "./components/LookingFor";
@@ -19,6 +20,7 @@ const App = () => {
       <WorksGalary />
       <SumbitAgency />
       <LookingFor />
+      <AgencyEvent />
       <div className="vh-100"></div>
     </>
   );

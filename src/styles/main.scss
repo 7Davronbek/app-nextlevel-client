@@ -596,9 +596,18 @@ html {
         }
 
         .lookingFor {
-            background-color: #111;
-            height: 740px;
             padding-top: 100px;
+            position: relative;
+
+            .span {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 740px;
+                background-color: #111;
+                z-index: -1;
+                width: 100%;
+            }
 
             h1 {
                 font-size: 40px;
@@ -688,7 +697,7 @@ html {
         }
 
         .agencyEvent {
-            padding-bottom: 100px;
+            padding: 100px 0 140px;
         }
     }
 }
