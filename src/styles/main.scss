@@ -120,7 +120,7 @@ html {
             font-size: 60px;
             letter-spacing: 10px;
             top: 50%;
-            z-index: -1;
+            z-index: 1;
             font-weight: 600;
             font-style: italic;
             color: #bbb7b7;
@@ -717,6 +717,7 @@ html {
 
         .agencyEvent {
             padding: 100px 0 140px;
+            background-color: #fff;
 
             .swiper-button-prev,
             .swiper-button-next {
@@ -821,6 +822,7 @@ html {
 
         .portfolio {
             padding-bottom: 70px;
+            background-color: #fff;
 
             h1 {
                 font-size: 17px;
@@ -840,6 +842,10 @@ html {
 
             .cardsWrap {
                 margin-top: 50px;
+                background: #fff;
+                box-shadow: 0 0 10px silver;
+                border-radius: 10px;
+                overflow: hidden;
 
                 .cards {
                     padding: 60px;
@@ -912,8 +918,7 @@ html {
             }
         }
 
-        .Footer {
-            margin-top: 100px;
+        .footer {
             padding: 100px 0;
             background: #000;
 
@@ -926,11 +931,12 @@ html {
             }
 
             .logo {
-            margin-bottom: 30px;
-            .log-p{
-                color: #8f8f8f;
-                font-size: 15px;
-            }
+                margin-bottom: 30px;
+
+                .log-p {
+                    color: #8f8f8f;
+                    font-size: 15px;
+                }
             }
 
             .email {
@@ -977,43 +983,50 @@ html {
                         transition: all ease 0.5s;
 
                         &:hover {
-                           padding-left: 20px;
+                            padding-left: 20px;
                             color: $pink;
                         }
                     }
                 }
-                .footer-contact{
+
+                .footer-contact {
                     margin-bottom: 20px;
                     padding-bottom: 20px;
                     display: inline-block;
                     border-bottom: 1px solid #8f8f8fd8;
-                    a{
+
+                    a {
                         font-size: 21px;
                         font-weight: 700;
                         letter-spacing: -2px;
                         line-height: 20px;
                         text-align: right;
                     }
-                    span{
+
+                    span {
                         font-size: 14px;
                         text-align: right;
                     }
                 }
-                .footer-social{
-                        a{
-                            margin-right: 30px;
-                           font-size: 25px;
-                            transition: ease 0.3s all;
-                           &:hover{
-                               animation: anim 0.5s ease-in;
-                               color: $pink;
-                               transform: scale(1.5);
-                           }
+
+                .footer-social {
+                    a {
+                        margin-right: 30px;
+                        font-size: 25px;
+                        transition: ease 0.3s all;
+
+                        &:hover {
+                            animation: anim 0.5s ease-in;
+                            color: $pink;
+                            transform: scale(1.5);
                         }
-                    h6{
+                    }
+
+                    h6 {
                         font-size: 18px;
                         margin-bottom: 10px;
                     }
+
                     // @keyframes anim {
                     //     0%{
                     //         transform: rotate(0);
@@ -1024,6 +1037,11 @@ html {
                     // }
                 }
             }
+        }
+
+        .partners {
+            background-color: #fff;
+            padding-bottom: 80px;
         }
     }
 }

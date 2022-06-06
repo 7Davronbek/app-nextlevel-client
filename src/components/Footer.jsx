@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='Footer'>
+        <div className='footer'>
             <div className="container">
                 <div className="titles">
                     <h1><span>Subscribe to our</span> newsletter</h1>
@@ -37,16 +37,12 @@ const Footer = () => {
                         <div className="widget">
                             <h4 className="widget-title">Agencies Of The Month</h4>
                             <ul className="footer-links">
-                                <li><a href="#">Main page</a></li>
-                                <li><a href="#">Main page</a></li>
-                                <li><a href="#">Main page</a></li>
-                                <li><a href="#">Main page</a></li>
-                                <li><a href="#">Main page</a></li>
-                                <li><a href="#">Main page</a></li>
-                                <li><a href="#">Main page</a></li>
-                                <li><a href="#">Main page</a></li>
-                                <li><a href="#">Main page</a></li>
-                                <li><a href="#">Main page</a></li>
+                                <li className='mb-2'><a href="!#">About Us</a></li>
+                                <li className='mb-2'><a href="!#">Contacts</a></li>
+                                <li className='mb-2'><a href="!#">History</a></li>
+                                <li className='mb-2'><a href="!#">Support</a></li>
+                                <li className='mb-2'><a href="!#">Privacy</a></li>
+                                <li className='mb-2'><a href="!#">Main page</a></li>
                             </ul>
                         </div>
                     </div>
@@ -65,16 +61,16 @@ const Footer = () => {
                             <div className="footer-social">
                                 <h6>Follow Us On</h6>
                                 <div className="d-flex align-items-center">
-                                    <a href="#">
+                                    <a href="!#">
                                         <FontAwesomeIcon icon={faInstagram} />
                                     </a>
-                                    <a href="#">
+                                    <a href="!#">
                                         <FontAwesomeIcon icon={faTwitter} />
                                     </a>
-                                    <a href="#">
+                                    <a href="!#">
                                         <FontAwesomeIcon icon={faLinkedinIn} />
                                     </a>
-                                    <a href="#">
+                                    <a href="!#">
                                         <FontAwesomeIcon icon={faFacebookF} />
                                     </a>
                                 </div>
