@@ -814,5 +814,25 @@ html {
                 }
             }
         }
+
+        .portfolio {
+            padding-bottom: 70px;
+
+            h1 {
+                font-size: 17px;
+                color: $pink;
+                font-weight: 600;
+            }
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-top: 6px;
+            }
+
+            .myBtn {
+                display: inline-block;
+            }
+        }
     }
 }

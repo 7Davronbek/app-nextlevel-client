@@ -15,7 +15,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 text-end">
                             <div className="myBtn">All Feeds</div>
                         </div>
                     </div>
