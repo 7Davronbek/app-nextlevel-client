@@ -12,12 +12,11 @@ const Header = () => {
               <h2>Looking for an Agency?</h2>
               <h3>Explore the world’s leading local and global agencies to find the one that suits your needs.</h3>
               <button className="btn myBtn">Подробнее</button>
-
             </div>
           </div>
         </div>
       </div>
-      
+
       <div className="nextLevel">NEXT LEVEL</div>
     </>
   )
