@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Header = () => {
+
+  const [offsetY, setOffsetY] = useState(0)
+  const handleScroll = () => setOffsetY(window.pageYOffset)
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll)
+
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+
   return (
     <>
       <div className="header">
@@ -17,7 +27,9 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="nextLevel">NEXT LEVEL</div>
+      <div
+        style={{ transform: `translateY( ${offsetY * 0.1}px) rotate(-90deg)` }}
+        className="nextLevel">NEXT LEVEL</div>
     </>
   )
 }

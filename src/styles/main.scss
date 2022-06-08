@@ -119,11 +119,13 @@ html {
             right: -185px;
             font-size: 60px;
             letter-spacing: 10px;
-            top: 50%;
+            top: 40%;
+            transition: all .2s linear;
             z-index: 1;
             font-weight: 600;
             font-style: italic;
             color: #bbb7b7;
+            user-select: none;
         }
 
         .h1 {
@@ -320,7 +322,7 @@ html {
                 font-weight: 600;
                 // width: 80%;
                 text-align: center;
-                margin: 0 auto 26px;
+                margin: 40px auto 26px;
             }
 
             h2 {
