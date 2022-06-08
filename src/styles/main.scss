@@ -159,6 +159,23 @@ html {
             cursor: pointer;
         }
 
+        .nextParralax {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            flex-wrap: nowrap;
+            position: relative;
+            padding-top: 50px;
+
+            h1 {
+                font-size: 80px;
+                color: #3e3e3e;
+                text-transform: uppercase;
+                margin-right: 30px;
+                position: relative;
+            }
+        }
+
         .navBar {
             // padding: 20px 0;
             // background-color: #323232;
@@ -307,6 +324,7 @@ html {
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
+            overflow: hidden;
 
             h6 {
                 color: #eeecec;

@@ -17,11 +17,11 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h6>Универсальная платформа для открытия лучшего</h6>
-              <h1>Рекламно производственная компания </h1>
-              <h2>Ищете рекламное Агенство?</h2>
+              <h6 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Универсальная платформа для открытия лучшего</h6>
+              <h1 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Рекламно производственная компания </h1>
+              <h2 style={{ transform: `translateY( ${offsetY * 0.35}px)` }}>Ищете рекламное Агенство?</h2>
               {/* <h3>Explore the world’s leading local and global agencies to find the one that suits your needs.</h3> */}
-              <button className="btn myBtn">Подробнее</button>
+              <button style={{ transform: `translateY( ${offsetY * 0.4}px)` }} className="btn myBtn">Подробнее</button>
             </div>
           </div>
         </div>

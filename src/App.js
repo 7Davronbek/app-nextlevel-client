@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import LookingFor from "./components/LookingFor";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
+import NextLevel from "./components/NextLevel";
 import Partners from "./components/Partners";
 import Portfolio from "./components/Portfolio";
 import SumbitAgency from "./components/SumbitAgency";
@@ -20,6 +21,7 @@ const App = () => {
       <Header />
       <AboutUs />
       <Benefits />
+      <NextLevel />
       <WorksGalary />
       <SumbitAgency />
       <LookingFor />
