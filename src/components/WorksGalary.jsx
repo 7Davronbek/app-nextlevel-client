@@ -10,7 +10,7 @@ const WorksGalary = () => {
                             <h1 className="h1">Наши работы
                                 {/* <span>OUR WORKS</span> */}
                             </h1>
-                            <h2>Best Agencies By Region</h2>
+                            <h2>Лучшее агентство по регионам</h2>
                         </div>
                     </div>
 
