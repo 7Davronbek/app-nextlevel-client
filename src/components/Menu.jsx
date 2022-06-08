@@ -12,7 +12,7 @@ const Menu = () => {
                                     <span><img src="/assets/image/burger.png" alt="" /></span>
                                     MENU
                                 </div>
-                                <div className="search"><img src="/assets/image/search.png" alt="" /></div>
+                                {/* <div className="search"><img src="/assets/image/search.png" alt="" /></div> */}
                             </div>
                             <div className="logo"><img src="/assets/image/logo.png" alt="" /></div>
                             <h6>SUBMIT YOUR AGENCY</h6>

@@ -7,10 +7,10 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h6>All-in-one Platform To Discover The Best</h6>
+              <h6>Универсальная платформа для открытия лучшего</h6>
               <h1>Рекламно производственная компания </h1>
-              <h2>Looking for an Agency?</h2>
-              <h3>Explore the world’s leading local and global agencies to find the one that suits your needs.</h3>
+              <h2>Ищете рекламное Агенство?</h2>
+              {/* <h3>Explore the world’s leading local and global agencies to find the one that suits your needs.</h3> */}
               <button className="btn myBtn">Подробнее</button>
             </div>
           </div>
