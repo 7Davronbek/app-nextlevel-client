@@ -8,10 +8,10 @@ const AboutUs = () => {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-lg-5">
                             <div className="wrap">
-                                <div className="design">Design</div>
-                                <div className="strategy">Strategy</div>
+                                <div className="design">Дизайн</div>
+                                <div className="strategy">Стратегия</div>
                                 <div className="km">400+ кв.м. производственной площади</div>
-                                <div className="public">Public Relations</div>
+                                <div className="public">Публичные отношения</div>
                                 <div className="third">30+ Квалифицированных сотрудников </div>
                                 <div className="ten">10 лет опыта</div>
                                 <div className="fifth">5000+ Реализованных  проектов  в год </div>
@@ -22,9 +22,9 @@ const AboutUs = () => {
                             <h1>Next level</h1>
                             <h2>Деловой Город </h2>
                             <h3>Рекламно производственная компания</h3>
-                            <h4>Bears delivers bespoke public relations and marketing, underpinned by clever thinking, market insight, and a set of business ethics that ensure we get the best results for our clients. For us public relations is no dying art, it is a skill that’s very much alive alongside social, digital and traditional marketing.</h4>
-                            <h5>We are a team of passionate media relations professionals, writers, digital marketers and creative designers. Our clients are big and small, UK and international, operating in many different sectors.</h5>
-                            <button className='btn  myBtn'>LEARN MORE</button>
+                            <h4>Next Level предлагает индивидуальные связи с общественностью и маркетинг, основанные на умном мышлении, понимании рынка и наборе деловой этики, которые гарантируют, что мы получим наилучшие результаты для наших клиентов. Для нас связи с общественностью — это не умирающее искусство, это навык, который живёт наряду с социальным, цифровым и традиционным маркетингом.</h4>
+                            <h5>Мы команда страстных профессионалов по связям со СМИ, писателей, цифровых маркетологов и креативных дизайнеров. Наши клиенты большие и малые и международные, работающие в самых разных секторах.</h5>
+                            <button className='btn  myBtn'>Узнать больше</button>
                         </div>
                     </div>
                 </div>
