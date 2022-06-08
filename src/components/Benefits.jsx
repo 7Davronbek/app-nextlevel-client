@@ -15,7 +15,7 @@ const Benefits = () => {
                                         </div>
                                         <div className="right">
                                             <h2>3587</h2>
-                                            <h3>Satisfied Clients</h3>
+                                            <h3>Довольные клиенты</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -26,7 +26,7 @@ const Benefits = () => {
                                         </div>
                                         <div className="right">
                                             <h2>70</h2>
-                                            <h3>Employees</h3>
+                                            <h3>Сотрудники</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@ const Benefits = () => {
                                         </div>
                                         <div className="right">
                                             <h2>685</h2>
-                                            <h3>Resumes Posted</h3>
+                                            <h3>Успешных проектов</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -47,8 +47,8 @@ const Benefits = () => {
                                             <img src="/assets/image/icon4.png" alt="" />
                                         </div>
                                         <div className="right">
-                                            <h2>2093</h2>
-                                            <h3>Company Members</h3>
+                                            <h2>93</h2>
+                                            <h3>Члены компании</h3>
                                         </div>
                                     </div>
                                 </div>
