@@ -166,6 +166,7 @@ html {
             flex-wrap: nowrap;
             position: relative;
             padding-top: 50px;
+            justify-content: center;
 
             h1 {
                 font-size: 80px;
@@ -173,6 +174,8 @@ html {
                 text-transform: uppercase;
                 margin-right: 30px;
                 position: relative;
+                user-select: none;
+                transition: all .3s linear;
             }
         }
 
