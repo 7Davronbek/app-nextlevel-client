@@ -3,8 +3,9 @@ import AboutUs from "./components/AboutUs";
 import AgencyEvent from "./components/AgencyEvent";
 import Benefits from "./components/Benefits";
 import Footer from "./components/Footer";
+import GridLayout from "./components/GridLayout";
 import Header from "./components/Header";
-import LookingFor from "./components/LookingFor";
+// import LookingFor from "./components/LookingFor";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 import NextLevel from "./components/NextLevel";
@@ -24,6 +25,7 @@ const App = () => {
       <NextLevel />
       <WorksGalary />
       <SumbitAgency />
+      <GridLayout />
       {/* <LookingFor /> */}
       <AgencyEvent />
       <Portfolio />
