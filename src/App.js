@@ -24,7 +24,7 @@ const App = () => {
       <NextLevel />
       <WorksGalary />
       <SumbitAgency />
-      <LookingFor />
+      {/* <LookingFor /> */}
       <AgencyEvent />
       <Portfolio />
       <Partners/>

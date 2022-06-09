@@ -17,7 +17,7 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h6 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Универсальная платформа для открытия лучшего</h6>
+              {/* <h6 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Универсальная платформа для открытия лучшего</h6> */}
               <h1 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Рекламно производственная компания </h1>
               <h2 style={{ transform: `translateY( ${offsetY * 0.35}px)` }}>Ищете рекламное Агенство?</h2>
               {/* <h3>Explore the world’s leading local and global agencies to find the one that suits your needs.</h3> */}

@@ -15,7 +15,7 @@ const Menu = () => {
                                 {/* <div className="search"><img src="/assets/image/search.png" alt="" /></div> */}
                             </div>
                             <div className="logo"><img src="/assets/image/logo.png" alt="" /></div>
-                            <h6>SUBMIT YOUR AGENCY</h6>
+                            <h6>Оставить заявку</h6>
                         </div>
                     </div>
                 </div>
