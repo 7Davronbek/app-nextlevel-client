@@ -16,14 +16,14 @@ const NextLevel = () => {
     return (
         <>
             <div style={{ transform: 'translateX(-650px)' }} className="nextParralax">
-                <h1 className='fira' style={{ transform: `translateX( ${offsetY * 0.2}px)`, left: "-150px" }}>Next Level</h1>
-                <h1 className='fira' style={{ transform: `translateX( ${offsetY * 0.2}px)` }}>Next Level</h1>
-                <h1 className='fira' style={{ transform: `translateX( ${offsetY * 0.2}px)`, right: "-150px" }}>Next Level</h1>
+                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, left: "-100px" }}>Next Level</h1>
+                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, }}>Next Level</h1>
+                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`,  right: "-100px"}}>Next Level</h1>
             </div>
             <div style={{ transform: 'translateX(700px)' }} className="nextParralax pt-4">
-                <h1 className='fira' style={{ transform: `translateX( ${offsetY * -0.2}px)`, left: "-150px" }}>Next Level</h1>
-                <h1 className='fira' style={{ transform: `translateX( ${offsetY * -0.2}px)` }}>Next Level</h1>
-                <h1 className='fira' style={{ transform: `translateX( ${offsetY * -0.2}px)`, right: "-150px" }}>Next Level</h1>
+                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, left: "-100px" }}>Next Level</h1>
+                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, }}>Next Level</h1>
+                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, right: "-100px" }}>Next Level</h1>
             </div>
         </>
     )

@@ -9,6 +9,15 @@ $secondaryWhite: #F8F8F8;
     src: url("../fonts/Pervitina.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Gotha-Bold";
+    src: url("../fonts/GothaProBolIta.otf") format("truetype");
+}
+
+.boldta {
+    font-family: "Gotha-Bold";
+}
+
 .bold {
     font-family: "Pervitina-Bold";
 }

@@ -29,7 +29,7 @@ const Header = () => {
 
       <div
         style={{ transform: `translateY( ${offsetY * 0.1}px) rotate(-90deg)` }}
-        className="nextLevel">NEXT LEVEL</div>
+        className="nextLevel boldta">NEXT LEVEL</div>
     </>
   )
 }
