@@ -1,4 +1,4 @@
-import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
@@ -6,16 +6,16 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className="container">
-                <div className="titles">
+                {/* <div className="titles">
                     <h1><span>Subscribe to our</span> newsletter</h1>
                     <h2 className="fira">what’s happening in the digital world</h2>
-                </div>
-                <div className="email text-center">
+                </div> */}
+                {/* <div className="email text-center">
                     <input type="email" placeholder='Enter your email here' />
                     <div className="send">
                         <button>Subscribe news later</button>
                     </div>
-                </div>
+                </div> */}
                 <div className="row justify-content-center">
                     <div className="col-3">
                         <div className="widget">
@@ -65,11 +65,11 @@ const Footer = () => {
                                         <FontAwesomeIcon icon={faInstagram} />
                                     </a>
                                     <a href="!#">
-                                        <FontAwesomeIcon icon={faTwitter} />
+                                        <FontAwesomeIcon icon={faTelegram} />
                                     </a>
-                                    <a href="!#">
+                                    {/* <a href="!#">
                                         <FontAwesomeIcon icon={faLinkedinIn} />
-                                    </a>
+                                    </a> */}
                                     <a href="!#">
                                         <FontAwesomeIcon icon={faFacebookF} />
                                     </a>

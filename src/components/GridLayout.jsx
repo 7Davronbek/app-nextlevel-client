@@ -9,7 +9,7 @@ const GridLayout = () => {
                         <div className="col-12 mb-5">
                             <h1>Спектр производимой продукции и предоставляемых услуг:</h1>
                         </div>
-                        <div className="col-12 text-center">
+                        <div className="col-11 mx-auto text-center">
                             {/* <div className="gallery">
                                 <div className="gallery-item"><img src="/assets/image/card.jpeg" alt="" /></div>
                                 <div className="gallery-item"><img src="/assets/image/card.jpeg" alt="" /></div>
