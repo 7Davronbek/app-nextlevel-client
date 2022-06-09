@@ -40,6 +40,30 @@ const GridLayout = () => {
                                     <img src={`/assets/image/card.jpeg`} alt="" />
                                     <h6>Lorem, ipsum dolor.</h6>
                                 </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/card.jpeg`} alt="" />
+                                    <h6>Lorem, ipsum dolor.</h6>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/card.jpeg`} alt="" />
+                                    <h6>Lorem, ipsum dolor.</h6>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/card.jpeg`} alt="" />
+                                    <h6>Lorem, ipsum dolor.</h6>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/card.jpeg`} alt="" />
+                                    <h6>Lorem, ipsum dolor.</h6>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/card.jpeg`} alt="" />
+                                    <h6>Lorem, ipsum dolor.</h6>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/card.jpeg`} alt="" />
+                                    <h6>Lorem, ipsum dolor.</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
