@@ -3,7 +3,7 @@ import React from 'react'
 const AboutUs = () => {
     return (
         <>
-            <div className="aboutUs">
+            <div id='aboutUs' className="aboutUs">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
                         <div className="col-lg-5">

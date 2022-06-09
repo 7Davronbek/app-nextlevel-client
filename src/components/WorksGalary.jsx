@@ -3,7 +3,7 @@ import React from 'react'
 const WorksGalary = () => {
     return (
         <>
-            <div className="worksGalary">
+            <div id='work' className="worksGalary">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">

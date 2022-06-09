@@ -3,7 +3,7 @@ import React from 'react'
 const GridLayout = () => {
     return (
         <>
-            <div className="gridLayout">
+            <div id='service' className="gridLayout">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 mb-5 text-center">
