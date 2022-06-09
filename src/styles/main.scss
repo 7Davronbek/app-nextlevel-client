@@ -173,13 +173,14 @@ html {
             justify-content: center;
 
             h1 {
-                font-size: 80px;
+                font-size: 86px;
                 color: #3e3e3e;
                 text-transform: uppercase;
                 margin-right: 30px;
                 position: relative;
                 user-select: none;
                 transition: all .3s linear;
+                font-weight: 700;
             }
         }
 
@@ -643,6 +644,8 @@ html {
                     border-radius: 0;
                     text-align: center;
                     color: $secondaryWhite;
+                    font-weight: 600;
+                    letter-spacing: 1px;
                 }
 
                 @media (max-width:767px) {
