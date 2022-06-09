@@ -13,6 +13,10 @@ $secondaryWhite: #F8F8F8;
     font-family: "Pervitina-Bold";
 }
 
+#root {
+    overflow-x: hidden
+}
+
 html {
 
     ::selection {
@@ -547,9 +551,19 @@ html {
         .gridLayout {
             padding: 50px 0;
 
+            h1 {
+                font-weight: 600;
+                font-size: 48px;
+            }
+
             img {
                 max-width: 100%;
                 height: auto;
+            }
+
+            .myBtn {
+                display: inline-block;
+                margin-top: 20px;
             }
 
             .gallery {
@@ -627,6 +641,8 @@ html {
                     align-items: center;
                     justify-content: center;
                     border-radius: 0;
+                    text-align: center;
+                    color: $secondaryWhite;
                 }
 
                 @media (max-width:767px) {

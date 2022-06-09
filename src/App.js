@@ -21,11 +21,11 @@ const App = () => {
       <Menu />
       <Header />
       <AboutUs />
+      <GridLayout />
       <Benefits />
       <NextLevel />
       <WorksGalary />
       <SumbitAgency />
-      <GridLayout />
       {/* <LookingFor /> */}
       <AgencyEvent />
       <Portfolio />
