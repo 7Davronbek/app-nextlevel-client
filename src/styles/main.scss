@@ -14,6 +14,15 @@ $secondaryWhite: #F8F8F8;
     src: url("../fonts/GothaProBolIta.otf") format("truetype");
 }
 
+@font-face {
+    font-family: "Gotha-Med";
+    src: url("../fonts/GothaProNarMed.otf") format("truetype");
+}
+
+.medium {
+    font-family: "Gotha-Bold";
+}
+
 .boldta {
     font-family: "Gotha-Bold";
 }
@@ -52,7 +61,8 @@ html {
     body {
         background-color: #e5e5e5;
         color: #222;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Gotha-Bold";
+        font-style: normal;
 
         ul,
         li {

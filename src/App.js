@@ -17,7 +17,7 @@ import WorksGalary from "./components/WorksGalary";
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Menu />
       <Header />
       <AboutUs />
