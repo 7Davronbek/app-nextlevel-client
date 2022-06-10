@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const AboutUs = () => {
+    const [modal, setModal] = useState(false)
     return (
         <>
             <div id='aboutUs' className="aboutUs">
@@ -24,9 +25,19 @@ const AboutUs = () => {
                             <h3>Рекламно производственная компания</h3>
                             <h4>Next Level предлагает индивидуальные связи с общественностью и маркетинг, основанные на умном мышлении, понимании рынка и наборе деловой этики, которые гарантируют, что мы получим наилучшие результаты для наших клиентов. Для нас связи с общественностью — это не умирающее искусство, это навык, который живёт наряду с социальным, цифровым и традиционным маркетингом.</h4>
                             <h5>Мы команда страстных профессионалов по связям со СМИ, писателей, цифровых маркетологов и креативных дизайнеров. Наши клиенты большие и малые и международные, работающие в самых разных секторах.</h5>
-                            <button className='btn  myBtn'>Узнать больше</button>
+                            <button onClick={() => setModal(true)} className='btn  myBtn'>Узнать больше</button>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className={`myModal ${modal ? 'active' : ''}`}>
+                <div className="cards">
+                    <span onClick={() => setModal(false)}>x</span>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloremque ad sit incidunt dicta dolores quasi, eum ex fugiat quaerat distinctio, dolore, modi temporibus vel itaque? Delectus deleniti molestiae explicabo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloremque ad sit incidunt dicta dolores quasi, eum ex fugiat quaerat distinctio, dolore, modi temporibus vel itaque? Delectus deleniti molestiae explicabo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloremque ad sit incidunt dicta dolores quasi, eum ex fugiat quaerat distinctio, dolore, modi temporibus vel itaque? Delectus deleniti molestiae explicabo.</p>
                 </div>
             </div>
         </>
