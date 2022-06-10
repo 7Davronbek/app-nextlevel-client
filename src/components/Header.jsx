@@ -18,7 +18,7 @@ const Header = () => {
           <div className="row">
             <div className="col-12">
               {/* <h6 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Универсальная платформа для открытия лучшего</h6> */}
-              <h1 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Рекламно производственная компания <span className="boldta">NEXT LEVEL</span></h1>
+              <h1 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Рекламно производственная компания <span className="">NEXT LEVEL</span></h1>
               <h2 style={{ transform: `translateY( ${offsetY * 0.35}px)` }}>Ищете рекламное Агенство?</h2>
               {/* <h3>Explore the world’s leading local and global agencies to find the one that suits your needs.</h3> */}
               <button style={{ transform: `translateY( ${offsetY * 0.4}px)` }} className="btn myBtn">Подробнее</button>

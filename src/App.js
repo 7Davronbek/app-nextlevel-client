@@ -3,11 +3,12 @@ import AboutUs from "./components/AboutUs";
 import AgencyEvent from "./components/AgencyEvent";
 import Benefits from "./components/Benefits";
 import Footer from "./components/Footer";
+import Forms from "./components/Forms";
 import GridLayout from "./components/GridLayout";
 import Header from "./components/Header";
 // import LookingFor from "./components/LookingFor";
 import Menu from "./components/Menu";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import NextLevel from "./components/NextLevel";
 import Partners from "./components/Partners";
 import Portfolio from "./components/Portfolio";
@@ -29,8 +30,9 @@ const App = () => {
       {/* <LookingFor /> */}
       <AgencyEvent />
       <Portfolio />
-      <Partners/>
-      <Footer/>
+      <Partners />
+      <Forms />
+      <Footer />
     </>
   );
 };
