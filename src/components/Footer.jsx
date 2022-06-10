@@ -46,17 +46,20 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-3">
                         <div className="widget">
                             <h4 className="widget-title">Company Number</h4>
-                            <div className="footer-contact justify-content-between align-items-center d-flex">
+                            <div className="footer-contact justify-content-around align-items-center d-flex">
                                 <div className="img">
                                     <img src="../assets/image/footerTel.png" alt="" />
                                 </div>
                                 <div className="text d-flex flex-column">
-                                    <a href="tel:+998999992727">+998 90 900 00 99</a>
+                                    <a href="tel:+998781297070">+998 78 129 70 70</a>
                                     <span>We Are Available 24/7</span>
                                 </div>
+                            </div>
+                            <div>
+                                <a href="!#"></a>
                             </div>
                             <div className="footer-social">
                                 <h6>Follow Us On</h6>
