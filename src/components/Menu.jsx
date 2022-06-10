@@ -11,6 +11,7 @@ const Menu = () => {
                                 <a href="#aboutUs">About Us</a>
                                 <a href="#service">Service</a>
                                 <a href="#work">Our works</a>
+                                <a href="#news">News</a>
                                 {/* <div className="burger">
                                     <span><img src="/assets/image/burger.png" alt="" /></span>
                                     MENU
