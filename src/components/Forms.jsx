@@ -3,7 +3,7 @@ import React from 'react'
 const Forms = () => {
     return (
         <>
-            <div className="forms">
+            <div id='forms' className="forms">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -37,6 +37,9 @@ const Forms = () => {
                                         <span className='icon icon-form4'>
                                         </span>
                                     </div>
+                                </div>
+                                <div className="col-lg-4 ms-auto text-end">
+                                    <div className="myBtn">Отправить</div>
                                 </div>
                             </div>
                         </div>

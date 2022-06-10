@@ -4,8 +4,8 @@ const Partners = () => {
     return (
         <div className='partners'>
             <div className="titles">
-                <h1>Нам доверяет</h1>
-                <h2 className="fira">what’s happening in the digital world</h2>
+                <h1 className='boldta'>Нам доверяют</h1>
+                <h2 className="fira"></h2>
             </div>
             <div className="container">
                 <div className="row justify-content-center">
