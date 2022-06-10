@@ -36,6 +36,40 @@ $secondaryWhite: #F8F8F8;
     font-family: "Gotha-Bold";
 }
 
+.icon {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+
+    background-color: $blue;
+
+    &.icon-form1 {
+        mask-image: url("../images/form.svg");
+        -webkit-mask-image: url("../images/form.svg");
+    }
+
+    &.icon-form2 {
+        mask-image: url("../images/form2.svg");
+        -webkit-mask-image: url("../images/form2.svg");
+    }
+
+    &.icon-form3 {
+        mask-image: url("../images/form3.svg");
+        -webkit-mask-image: url("../images/form3.svg");
+    }
+
+    &.icon-form4 {
+        mask-image: url("../images/form4.svg");
+        -webkit-mask-image: url("../images/form4.svg");
+    }
+}
+
 h1 {
 
     &.boldta {
@@ -1274,9 +1308,35 @@ html {
             }
 
             .cards {
+                position: relative;
+
+                span {
+                    width: 16px;
+                    height: 16px;
+                    position: absolute;
+                    top: 50%;
+                    right: 20px;
+                    transform: translateY(-50%);
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                textarea {
+                    padding-top: 20px !important;
+                    font-size: 20px !important;
+                    height: auto !important;
+
+                    &~span {
+                        top: 20px;
+                        transform: translateY(0);
+                    }
+                }
 
                 .form-control {
                     margin: 0;
+                    font-size: 18px !important;
                     padding: 0 55px 0 25px;
                     vertical-align: top;
                     width: 100%;
@@ -1296,6 +1356,7 @@ html {
                     -o-transition: all .3s linear;
                     transition: all .3s linear;
                     margin-bottom: 20px;
+                    border-radius: 0;
                 }
             }
         }

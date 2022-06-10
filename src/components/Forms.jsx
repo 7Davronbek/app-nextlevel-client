@@ -13,21 +13,29 @@ const Forms = () => {
                             <div className="row">  <div className="col-lg-4">
                                 <div className="cards">
                                     <input type="text" className='form-control' placeholder='Ваше имя' />
+                                    <span className='icon icon-form1'>
+                                    </span>
                                 </div>
                             </div>
                                 <div className="col-lg-4">
                                     <div className="cards">
                                         <input type="text" className='form-control' placeholder='Ваш телефон' />
+                                        <span className='icon icon-form2'>
+                                        </span>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="cards">
                                         <input type="text" className='form-control' placeholder='Ваша почта' />
+                                        <span className='icon icon-form3'>
+                                        </span>
                                     </div>
                                 </div>
                                 <div className="col-lg-12">
                                     <div className="cards">
-                                        <input type="textarea" className='form-control' placeholder='Ваша почта' />
+                                        <textarea rows={10} type="textarea" className='form-control' placeholder='Ваша почта' />
+                                        <span className='icon icon-form4'>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
