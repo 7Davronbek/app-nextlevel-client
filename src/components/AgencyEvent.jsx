@@ -13,7 +13,7 @@ import {
     Navigation
 } from "swiper";
 
-const AgencyEvent = () => {
+const   AgencyEvent = () => {
     return (
         <>
             <div className="agencyEvent">

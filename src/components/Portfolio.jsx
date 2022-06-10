@@ -6,18 +6,18 @@ const Portfolio = () => {
             <div className="portfolio">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div className="d-flex align-items-center">
+                        <div className="col-lg-12 text-center">
+                            <div className="d-flex align-items-center justify-content-center">
                                 <i className='me-3'><img src="/assets/image/submitShape.png" alt="" /></i>
                                 <div>
                                     <h1 className='fira'>Best agencies by region</h1>
-                                    <h2>Recent News & Feed</h2>
+                                    <h2 className='boldta'>Недание новости о компании</h2>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 text-end">
+                        {/* <div className="col-lg-6 text-end">
                             <div className="myBtn">All Feeds</div>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="cardsWrap">

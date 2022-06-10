@@ -12,7 +12,7 @@ import Menu from "./components/Menu";
 import NextLevel from "./components/NextLevel";
 import Partners from "./components/Partners";
 import Portfolio from "./components/Portfolio";
-import SumbitAgency from "./components/SumbitAgency";
+// import SumbitAgency from "./components/SumbitAgency";
 import WorksGalary from "./components/WorksGalary";
 
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
       <Benefits />
       <NextLevel />
       <WorksGalary />
-      <SumbitAgency />
+      {/* <SumbitAgency /> */}
       {/* <LookingFor /> */}
       <AgencyEvent />
       <Portfolio />
