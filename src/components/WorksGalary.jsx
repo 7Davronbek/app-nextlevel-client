@@ -7,7 +7,7 @@ const WorksGalary = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">
-                            <h1 className="h1">Наши работы
+                            <h1 className="h1 boldta">Наши работы
                                 {/* <span>OUR WORKS</span> */}
                             </h1>
                             <h2>Лучшее агентство по регионам</h2>
