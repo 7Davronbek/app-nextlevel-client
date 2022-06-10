@@ -8,10 +8,10 @@ const Menu = () => {
                     <div className="row">
                         <div className="col-12 d-flex align-items-center">
                             <div className='d-flex align-items-center menuWrap'>
-                                <a href="#aboutUs">About Us</a>
-                                <a href="#service">Service</a>
-                                <a href="#work">Our works</a>
-                                <a href="#news">News</a>
+                                <a href="#aboutUs">О нас</a>
+                                <a href="#service">Услуги</a>
+                                <a href="#work">Наши работы</a>
+                                <a href="#news">Новости</a>
                                 {/* <div className="burger">
                                     <span><img src="/assets/image/burger.png" alt="" /></span>
                                     MENU
