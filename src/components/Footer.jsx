@@ -35,20 +35,18 @@ const Footer = () => {
                     </div>
                     <div className="col-3 offset-1">
                         <div className="widget">
-                            <h4 className="widget-title">Agencies Of The Month</h4>
-                            <ul className="footer-links">
-                                <li className='mb-2'><a href="!#">About Us</a></li>
-                                <li className='mb-2'><a href="!#">Contacts</a></li>
-                                <li className='mb-2'><a href="!#">History</a></li>
-                                <li className='mb-2'><a href="!#">Support</a></li>
-                                <li className='mb-2'><a href="!#">Privacy</a></li>
-                                <li className='mb-2'><a href="!#">Main page</a></li>
+                            <h4 className="widget-title">Меню</h4>
+                            <ul className="footer-links flex-column d-flex">
+                                <a className='mt-4' href="#aboutUs">О нас</a>
+                                <a className='mt-4' href="#service">Услуги</a>
+                                <a className='mt-4' href="#work">Наши работы</a>
+                                <a className='mt-4' href="#news">Новости</a>
                             </ul>
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="widget">
-                            <h4 className="widget-title">Company Number</h4>
+                            <h4 className="widget-title">Номер Компании</h4>
                             <div className="footer-contact justify-content-around align-items-center d-flex">
                                 <div className="img">
                                     <img src="../assets/image/footerTel.png" alt="" />
@@ -59,7 +57,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div>
-                                <a href="!#"></a>
+                                {/* <a href="!#"></a> */}
                             </div>
                             <div className="footer-social">
                                 <h6>Follow Us On</h6>
