@@ -1190,6 +1190,10 @@ html {
             padding: 100px 0;
             background: linear-gradient(360deg, #2c2c2c, #3e3e3e);
 
+            p {
+                color: #cbcbcb;
+            }
+
             h1 {
                 color: #fff;
 
@@ -1246,7 +1250,7 @@ html {
 
                 .footer-links {
                     a {
-                        color: #8f8f8f;
+                        color: #cbcbcb;
                         font-size: 15px;
                         transition: all ease 0.5s;
 
@@ -1261,7 +1265,7 @@ html {
                     margin-bottom: 20px;
                     padding-bottom: 20px;
                     display: inline-block;
-                    border-bottom: 1px solid #8f8f8fd8;
+                    border-bottom: 1px solid #8f8f8f47;
 
                     a {
                         font-size: 21px;
@@ -1438,5 +1442,19 @@ html {
         .cards {
             transform: translateY(0);
         }
+    }
+}
+
+.koko {
+    background: black;
+    text-align: center;
+    padding: 15px 0;
+
+    a {
+        font-size: 15px;
+    }
+
+    span {
+        color: $pink;
     }
 }
