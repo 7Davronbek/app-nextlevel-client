@@ -14,6 +14,7 @@ import Partners from "./components/Partners";
 import Portfolio from "./components/Portfolio";
 // import SumbitAgency from "./components/SumbitAgency";
 import WorksGalary from "./components/WorksGalary";
+import Loader from "./Loader";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
       <Partners />
       <Forms />
       <Footer />
+      <Loader />
     </>
   );
 };
