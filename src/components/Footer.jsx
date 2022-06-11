@@ -46,14 +46,14 @@ const Footer = () => {
                     </div>
                     <div className="col-3">
                         <div className="widget">
-                            <h4 className="widget-title">Номер Компании</h4>
+                            <h4 className="widget-title">Контакты</h4>
                             <div className="footer-contact  align-items-center d-flex">
-                                <div className="img me-3" >
+                                {/* <div className="img me-3" >
                                     <img src="../assets/image/footerTel.png" alt="" />
-                                </div>
+                                </div> */}
                                 <div className="text-left d-flex flex-column">
                                     <a href="tel:+998781297070">+998 78 129 70 70</a>
-                                    <span>Online</span>
+                                    {/* <span>Online</span> */}
                                 </div>
                             </div>
 

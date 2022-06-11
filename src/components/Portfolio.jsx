@@ -11,7 +11,7 @@ const Portfolio = () => {
                                 <i className='me-3'><img src="/assets/image/submitShape.png" alt="" /></i>
                                 <div>
                                     <h1 className='fira'>Best agencies by region</h1>
-                                    <h2 className='boldta'>Недание новости о компании</h2>
+                                    <h2 className='boldta'>Новости о компании</h2>
                                 </div>
                             </div>
                         </div>
