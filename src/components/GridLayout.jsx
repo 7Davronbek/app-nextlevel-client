@@ -72,8 +72,8 @@ const GridLayout = () => {
                                     <h6 className="fira">Крышные конструкции</h6>
                                 </div>
                                 <div className="image-box">
-                                    <img src={`/assets/image/port9.jpg`} alt="" />
-                                    <h6 className="fira">Стелы, пиловы, указатели, указатели, навигационные материалы</h6>
+                                    <img src={`/assets/image/port14.jpg`} alt="" />
+                                    <h6 className="fira">Остановочные комплексы </h6>
                                 </div>
                                 <div className="image-box">
                                     <img src={`/assets/image/port11.webp`} alt="" />
@@ -91,6 +91,30 @@ const GridLayout = () => {
                                     <img src={`/assets/image/port13.webp`} alt="" />
                                     <h6 className="fira">Сувенирная продукция</h6>
                                 </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/port15.jpg`} alt="" />
+                                    <h6 className="fira"> Арт-объекты и нестандартные конструкции</h6>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/port17.jpg`} alt="" />
+                                    <h6 className="fira"> Оформление фасадод и входных групп</h6>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/port16.jpg`} alt="" />
+                                    <h6 className="fira">Декорирование автотранспорта и витражей</h6>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`/assets/image/port18.jpg`} alt="" />
+                                    <h6 className="fira">Таблички и информационные стенды</h6>
+                                </div>  
+                                <div className="image-box">
+                                    <img src={`/assets/image/port19.jpg`} alt="" />
+                                    <h6 className="fira">Флагштоки, флаги и печать на ткани</h6>
+                                </div>  
+                                <div className="image-box">
+                                    <img src={`/assets/image/port20.jpg`} alt="" />
+                                    <h6 className="fira">Баннерные паччо и растяжки</h6>
+                                </div>  
                             </div>
 
                             {/* <div className="myBtn">Посмотреть все</div> */}
