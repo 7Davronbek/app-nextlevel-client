@@ -47,35 +47,42 @@ const Footer = () => {
                     <div className="col-3">
                         <div className="widget">
                             <h4 className="widget-title">Номер Компании</h4>
-                            <div className="footer-contact justify-content-around align-items-center d-flex">
-                                <div className="img">
+                            <div className="footer-contact  align-items-center d-flex">
+                                <div className="img me-3" >
                                     <img src="../assets/image/footerTel.png" alt="" />
                                 </div>
-                                <div className="text d-flex flex-column">
+                                <div className="text-left d-flex flex-column">
                                     <a href="tel:+998781297070">+998 78 129 70 70</a>
-                                    <span>We Are Available 24/7</span>
+                                    <span>Online</span>
                                 </div>
                             </div>
-                            <div>
-                                {/* <a href="!#"></a> */}
+
+                            <div className="mt-3">
+                                <p></p>
                             </div>
+
                             <div className="footer-social">
-                                <h6>Follow Us On</h6>
+                                <h6>Следите за нами:</h6>
                                 <div className="d-flex align-items-center">
-                                    <a href="!#">
+                                    <a target={'_blank'} rel="noreferrer" href="!#">
                                         <FontAwesomeIcon icon={faInstagram} />
                                     </a>
-                                    <a href="!#">
+                                    <a target={'_blank'} rel="noreferrer" href="!#">
                                         <FontAwesomeIcon icon={faTelegram} />
                                     </a>
                                     {/* <a href="!#">
                                         <FontAwesomeIcon icon={faLinkedinIn} />
                                     </a> */}
-                                    <a href="!#">
+                                    <a target={'_blank'} rel="noreferrer" href="!#">
                                         <FontAwesomeIcon icon={faFacebookF} />
                                     </a>
                                 </div>
                             </div>
+
+                            <div>
+                                <a target={'_blank'} rel="noreferrer" className='mt-3 d-block' href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info@nextlevel.uz">info@nextlevel.uz</a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
