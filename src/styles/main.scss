@@ -836,6 +836,7 @@ html {
         .sumbitAgency {
             padding-bottom: 80px;
 
+
             .cards {
                 display: flex;
                 align-items: center;
@@ -1025,12 +1026,14 @@ html {
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
-                text-align: right;
 
                 h3 {
-                    font-size: 22px;
+                    line-height: 28px;
+                    font-size: 29px;
                     font-weight: 700;
-                    margin: 20px 0 15px;
+                    margin: 20px 0 20px;
+                    color: $blue;
+
                 }
 
                 h4 {
@@ -1058,7 +1061,7 @@ html {
                 }
 
                 p {
-                    font-size: 16px;
+                    font-size: 20px;
                     color: #444;
                 }
 

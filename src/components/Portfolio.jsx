@@ -10,7 +10,7 @@ const Portfolio = () => {
                             <div className="d-flex align-items-center justify-content-center">
                                 <i className='me-3'><img src="/assets/image/submitShape.png" alt="" /></i>
                                 <div>
-                                    <h1 className='fira'>Best agencies by region</h1>
+                                    {/* <h1 className='fira'>Best agencies by region</h1> */}
                                     <h2 className='boldta'>Новости о компании</h2>
                                 </div>
                             </div>
@@ -22,17 +22,17 @@ const Portfolio = () => {
 
                     <div className="cardsWrap">
                         <div className="row justify-content-center">
-                            <div className="col-4 p-0">
+                            <div className="col-4 p-0 d-flex align-items-center justify-content-center">
                                 <div className="cards">
-                                    <h6 className='fira'>06 September, 2017</h6>
+                                    {/* <h6 className='fira'>06 September, 2017</h6> */}
                                     <h4>Google On An Innovative VR Series, Named </h4>
-                                    <div className="d-flex align-items-center">
+                                    {/* <div className="d-flex align-items-center">
                                         <h5 className='fira'><span>by</span>  James Hacon</h5>
                                         <div className="square"></div>
                                         <h5 className='fira'>10 Comments</h5>
-                                    </div>
+                                    </div> */}
                                     <p>The Social Media Strategies Summit for marketers. This 3-day event feat-ures talks, and how-to tutorials.</p>
-                                    <a className='fira' href="!#">Read More</a>
+                                    {/* <a className='fira' href="!#">Read More</a> */}
                                 </div>
                             </div>
                             <div className="col-4 p-0">

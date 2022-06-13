@@ -12,7 +12,7 @@ const AboutUs = () => {
                                 <div className="design">Дизайн</div>
                                 <div className="strategy">Стратегия</div>
                                 <div className="km">400+ кв.м. производственной площади</div>
-                                <div className="public">Публичные отношения</div>
+                                <div className="public">Качественная работа</div>
                                 <div className="third">30+ Квалифицированных сотрудников </div>
                                 <div className="ten">10 лет опыта</div>
                                 <div className="fifth">5000+ Реализованных  проектов  в год </div>
