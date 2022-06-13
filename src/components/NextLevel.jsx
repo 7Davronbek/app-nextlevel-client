@@ -15,14 +15,14 @@ const NextLevel = () => {
 
     return (
         <>
-            <div style={{ transform: 'translateX(-850px)' }} className="nextParralax">
+            <div style={{ transform: 'translateX(-900px)' }} className="nextParralax">
                 <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)` }} />
                 <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, }} />
                 <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, }} />
                 <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, }} />
                 <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)` }} />
             </div>
-            <div style={{ transform: 'translateX(850px)' }} className="nextParralax">
+            <div style={{ transform: 'translateX(900px)' }} className="nextParralax">
                 <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)` }} />
                 <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, }} />
                 <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, }} />

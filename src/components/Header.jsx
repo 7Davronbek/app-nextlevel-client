@@ -19,7 +19,7 @@ const Header = () => {
             <div className="col-12">
               {/* <h6 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Универсальная платформа для открытия лучшего</h6> */}
               <h1 style={{ transform: `translateY( ${offsetY * 0.25}px)` }}>Рекламно производственная компания <span className="">NEXT LEVEL</span></h1>
-              <h2 style={{ transform: `translateY( ${offsetY * 0.35}px)` }}>Ищете рекламное Агенство?</h2>
+              {/* <h2 style={{ transform: `translateY( ${offsetY * 0.35}px)` }}>Ищете рекламное Агенство?</h2> */}
               {/* <h3>Explore the world’s leading local and global agencies to find the one that suits your needs.</h3> */}
               <button style={{ transform: `translateY( ${offsetY * 0.4}px)` }} className="btn myBtn">Подробнее</button>
             </div>
@@ -28,8 +28,8 @@ const Header = () => {
       </div>
 
       <div
-        style={{ transform: `translateY( ${offsetY * 0.1}px) rotate(-90deg)` }}
-        className="nextLevel boldta">NEXT LEVEL</div>
+        style={{ transform: `translateY( ${offsetY * 0.03}px) rotate(-90deg)` }}
+        className="nextLevel boldta"><img src="/assets/icon/lineLogo.png" alt="" /></div>
     </>
   )
 }

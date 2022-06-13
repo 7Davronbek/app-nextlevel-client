@@ -193,7 +193,6 @@ html {
         .nextLevel {
             transform: rotate(-90deg);
             position: fixed;
-            right: -185px;
             font-size: 60px;
             letter-spacing: 10px;
             top: 40%;
@@ -203,6 +202,7 @@ html {
             font-style: italic;
             color: #bbb7b7;
             user-select: none;
+            right: -135px;
         }
 
         .h1 {
