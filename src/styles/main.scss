@@ -663,6 +663,10 @@ html {
                     }
                 }
             }
+
+            @media(max-width: 992px) {
+                padding: 90px 0 25px;
+            }
         }
 
         .benefits {
@@ -846,6 +850,10 @@ html {
                         }
                     }
                 }
+            }
+
+            @media(max-width: 992px) {
+                padding: 35px 0 30px;
             }
         }
 

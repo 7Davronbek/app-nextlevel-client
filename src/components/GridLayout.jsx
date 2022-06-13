@@ -9,7 +9,7 @@ const GridLayout = () => {
                         <div className="col-12 mb-5 text-center">
                             <h1 className='boldta'>Спектр производимой продукции и предоставляемых услуг:</h1>
                         </div>
-                        <div className="col-11 mx-auto text-center">
+                        <div className="col-lg-11 mx-auto text-center">
                             {/* <div className="gallery">
                                 <div className="gallery-item"><img src="/assets/image/port" alt="" /></div>
                                 <div className="gallery-item"><img src="/assets/image/port" alt="" /></div>
@@ -106,15 +106,15 @@ const GridLayout = () => {
                                 <div className="image-box">
                                     <img src={`/assets/image/port18.jpg`} alt="" />
                                     <h6 className="fira">Таблички и информационные стенды</h6>
-                                </div>  
+                                </div>
                                 <div className="image-box">
                                     <img src={`/assets/image/port19.jpg`} alt="" />
                                     <h6 className="fira">Флагштоки, флаги и печать на ткани</h6>
-                                </div>  
+                                </div>
                                 <div className="image-box">
                                     <img src={`/assets/image/port20.jpg`} alt="" />
                                     <h6 className="fira">Баннерные паччо и растяжки</h6>
-                                </div>  
+                                </div>
                             </div>
 
                             {/* <div className="myBtn">Посмотреть все</div> */}
