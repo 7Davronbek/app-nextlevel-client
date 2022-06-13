@@ -8,7 +8,7 @@ const Benefits = () => {
                     <div className="row myRow">
                         <div className="col-10 mx-auto">
                             <div className="row">
-                                <div className="col-lg-3 col-md-6">
+                                <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
                                     <div className="cards">
                                         <div className="left">
                                             <img src="/assets/image/icon1.png" alt="" />
@@ -19,7 +19,7 @@ const Benefits = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6">
+                                <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
                                     <div className="cards">
                                         <div className="left">
                                             <img src="/assets/image/icon2.png" alt="" />
@@ -30,7 +30,7 @@ const Benefits = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6">
+                                <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
                                     <div className="cards">
                                         <div className="left">
                                             <img src="/assets/image/icon3.png" alt="" />
@@ -41,7 +41,7 @@ const Benefits = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6">
+                                <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
                                     <div className="cards">
                                         <div className="left">
                                             <img src="/assets/image/icon4.png" alt="" />
