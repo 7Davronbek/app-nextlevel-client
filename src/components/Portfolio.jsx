@@ -25,13 +25,13 @@ const Portfolio = () => {
                             <div className="col-4 p-0 d-flex align-items-center justify-content-center">
                                 <div className="cards">
                                     {/* <h6 className='fira'>06 September, 2017</h6> */}
-                                    <h4>Google On An Innovative VR Series, Named </h4>
+                                    <h4>Новости  компании</h4>
                                     {/* <div className="d-flex align-items-center">
                                         <h5 className='fira'><span>by</span>  James Hacon</h5>
                                         <div className="square"></div>
                                         <h5 className='fira'>10 Comments</h5>
                                     </div> */}
-                                    <p>The Social Media Strategies Summit for marketers. This 3-day event feat-ures talks, and how-to tutorials.</p>
+                                    <p>Важнейший актив «Делового Города» — команда профессионалов, специалистов своего дела, для которых каждый новый заказ становится очередным этапом для роста и подтверждения их компетентности, проверкой на прочность.</p>
                                     {/* <a className='fira' href="!#">Read More</a> */}
                                 </div>
                             </div>
@@ -41,17 +41,17 @@ const Portfolio = () => {
                                     <img className='w-100' src="/assets/image/card.jpeg" alt="" />
                                 </div>
                             </div>
-                            <div className="col-4 p-0">
+                            <div className="col-4 p-0 d-flex align-items-center justify-content-center">
                                 <div className="cards">
-                                    <h6 className='fira'>06 September, 2017</h6>
-                                    <h4>Google On An Innovative VR Series, Named </h4>
-                                    <div className="d-flex align-items-center">
-                                        <h5 className='fira'><span>by</span>   James Hacon</h5>
+                                    {/* <h6 className='fira'>06 September, 2017</h6> */}
+                                    <h4>Новости  компании</h4>
+                                    {/* <div className="d-flex align-items-center">
+                                        <h5 className='fira'><span>by</span>  James Hacon</h5>
                                         <div className="square"></div>
                                         <h5 className='fira'>10 Comments</h5>
-                                    </div>
-                                    <p>The Social Media Strategies Summit for marketers. This 3-day event feat-ures talks, and how-to tutorials.</p>
-                                    <a className='fira' href="!#">Read More</a>
+                                    </div> */}
+                                    <p>Важнейший актив «Делового Города» — команда профессионалов, специалистов своего дела, для которых каждый новый заказ становится очередным этапом для роста и подтверждения их компетентности, проверкой на прочность.</p>
+                                    {/* <a className='fira' href="!#">Read More</a> */}
                                 </div>
                             </div>
                             <div className="col-4 p-0">
@@ -60,17 +60,17 @@ const Portfolio = () => {
                                     <img className='w-100' src="/assets/image/card.jpeg" alt="" />
                                 </div>
                             </div>
-                            <div className="col-4 p-0">
+                            <div className="col-4 p-0 d-flex align-items-center justify-content-center">
                                 <div className="cards">
-                                    <h6 className='fira'>06 September, 2017</h6>
-                                    <h4>Google On An Innovative VR Series, Named </h4>
-                                    <div className="d-flex align-items-center">
+                                    {/* <h6 className='fira'>06 September, 2017</h6> */}
+                                    <h4>Новости  компании</h4>
+                                    {/* <div className="d-flex align-items-center">
                                         <h5 className='fira'><span>by</span>  James Hacon</h5>
                                         <div className="square"></div>
                                         <h5 className='fira'>10 Comments</h5>
-                                    </div>
-                                    <p>The Social Media Strategies Summit for marketers. This 3-day event feat-ures talks, and how-to tutorials.</p>
-                                    <a className='fira' href="!#">Read More</a>
+                                    </div> */}
+                                    <p>Важнейший актив «Делового Города» — команда профессионалов, специалистов своего дела, для которых каждый новый заказ становится очередным этапом для роста и подтверждения их компетентности, проверкой на прочность.</p>
+                                    {/* <a className='fira' href="!#">Read More</a> */}
                                 </div>
                             </div>
 
