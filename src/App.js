@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { useEffect } from "react";
 import AboutUs from "./components/AboutUs";
 import AgencyEvent from "./components/AgencyEvent";
 import Benefits from "./components/Benefits";
@@ -17,24 +18,36 @@ import WorksGalary from "./components/WorksGalary";
 import Loader from "./Loader";
 
 const App = () => {
+  const [loader, setLoader] = useState(true)
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false)
+    }, 3000);
+  })
+  // window.addEventListener("load", () => {
+  //   setLoader(false)
+  // })
   return (
     <>
-      {/* <Navbar /> */}
-      <Menu />
-      <Header />
-      <AboutUs />
-      <GridLayout />
-      <Benefits />
-      <NextLevel />
-      <WorksGalary />
-      {/* <SumbitAgency /> */}
-      {/* <LookingFor /> */}
-      <AgencyEvent />
-      <Portfolio />
-      <Partners />
-      <Forms />
-      <Footer />
-      <Loader />
+      {loader ?
+        <><Loader /> </> : ""
+      }
+      <>
+        < Menu />
+        <Header />
+        <AboutUs />
+        <GridLayout />
+        <Benefits />
+        <NextLevel />
+        <WorksGalary />
+        {/* <SumbitAgency /> */}
+        {/* <LookingFor /> */}
+        <AgencyEvent />
+        <Portfolio />
+        <Partners />
+        <Forms />
+        <Footer />
+      </>
     </>
   );
 };

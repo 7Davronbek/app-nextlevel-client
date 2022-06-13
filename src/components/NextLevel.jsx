@@ -15,15 +15,19 @@ const NextLevel = () => {
 
     return (
         <>
-            <div style={{ transform: 'translateX(-650px)' }} className="nextParralax">
-                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, left: "-100px" }}>Next Level</h1>
-                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, }}>Next Level</h1>
-                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`,  right: "-100px"}}>Next Level</h1>
+            <div style={{ transform: 'translateX(-850px)' }} className="nextParralax">
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)` }} />
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, }} />
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, }} />
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)`, }} />
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * 0.2}px)` }} />
             </div>
-            <div style={{ transform: 'translateX(700px)' }} className="nextParralax pt-4">
-                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, left: "-100px" }}>Next Level</h1>
-                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, }}>Next Level</h1>
-                <h1 className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, right: "-100px" }}>Next Level</h1>
+            <div style={{ transform: 'translateX(850px)' }} className="nextParralax">
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)` }} />
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, }} />
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, }} />
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)`, }} />
+                <img alt='' src='/assets/icon/logo.png' className='boldta' style={{ transform: `translateX( ${offsetY * -0.2}px)` }} />
             </div>
         </>
     )

@@ -246,6 +246,11 @@ html {
             padding-top: 50px;
             justify-content: center;
 
+            img {
+                transition: all .3s linear;
+                margin: 0 50px;
+            }
+
             h1 {
                 font-size: 76px;
                 color: #3e3e3e;
@@ -253,7 +258,6 @@ html {
                 margin-right: 30px;
                 position: relative;
                 user-select: none;
-                transition: all .3s linear;
                 font-weight: 700;
             }
         }
@@ -786,7 +790,7 @@ html {
         }
 
         .worksGalary {
-            padding: 150px 0 50px;
+            padding: 80px 0 50px;
 
             h1 {
                 font-weight: 600;
@@ -1402,6 +1406,8 @@ html {
     transition: all .5s ease-in-out;
     opacity: 0;
     visibility: hidden;
+    overflow: auto;
+    padding: 20px 0;
 
     .cards {
         width: 70%;
