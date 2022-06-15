@@ -23,7 +23,7 @@ const App = () => {
     setTimeout(() => {
       setLoader(false);
     }, 3000);
-  });
+  }, []);
   // window.addEventListener("load", () => {
   //   setLoader(false)
   // })
