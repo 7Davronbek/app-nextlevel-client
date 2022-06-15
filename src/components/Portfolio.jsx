@@ -22,7 +22,7 @@ const Portfolio = () => {
 
                     <div className="cardsWrap">
                         <div className="row justify-content-center">
-                            <div className="col-4 p-0 d-flex align-items-center justify-content-center">
+                            <div className="col-lg-4 p-0 d-flex align-items-center justify-content-center">
                                 <div className="cards">
                                     {/* <h6 className='fira'>06 September, 2017</h6> */}
                                     <h4>Новости  компании</h4>
@@ -35,13 +35,13 @@ const Portfolio = () => {
                                     {/* <a className='fira' href="!#">Read More</a> */}
                                 </div>
                             </div>
-                            <div className="col-4 p-0">
+                            <div className="col-lg-4 p-0">
                                 <div className="cards img-bor">
                                     <h3>Social Media News</h3>
                                     <img className='w-100' src="/assets/image/card.jpeg" alt="" />
                                 </div>
                             </div>
-                            <div className="col-4 p-0 d-flex align-items-center justify-content-center">
+                            <div className="col-lg-4 p-0 d-flex align-items-center justify-content-center">
                                 <div className="cards">
                                     {/* <h6 className='fira'>06 September, 2017</h6> */}
                                     <h4>Новости  компании</h4>
@@ -54,13 +54,13 @@ const Portfolio = () => {
                                     {/* <a className='fira' href="!#">Read More</a> */}
                                 </div>
                             </div>
-                            <div className="col-4 p-0">
+                            <div className="col-lg-4 p-0">
                                 <div className="cards img-bor">
                                     <h3>Social Media News</h3>
                                     <img className='w-100' src="/assets/image/card.jpeg" alt="" />
                                 </div>
                             </div>
-                            <div className="col-4 p-0 d-flex align-items-center justify-content-center">
+                            <div className="col-lg-4 p-0 d-flex align-items-center justify-content-center">
                                 <div className="cards">
                                     {/* <h6 className='fira'>06 September, 2017</h6> */}
                                     <h4>Новости  компании</h4>
@@ -74,7 +74,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
 
-                            <div className="col-4 p-0">
+                            <div className="col-lg-4 p-0">
                                 <div className="cards img-bor">
                                     <h3>Social Media News</h3>
                                     <img className='w-100' src="/assets/image/card.jpeg" alt="" />

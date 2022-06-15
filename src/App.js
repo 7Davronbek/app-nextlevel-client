@@ -15,25 +15,29 @@ import Partners from "./components/Partners";
 import Portfolio from "./components/Portfolio";
 // import SumbitAgency from "./components/SumbitAgency";
 import WorksGalary from "./components/WorksGalary";
-import Loader from "./Loader";
+import Loader from "./components/Loader";
 
 const App = () => {
-  const [loader, setLoader] = useState(true)
+  const [loader, setLoader] = useState(true);
   useEffect(() => {
     setTimeout(() => {
-      setLoader(false)
+      setLoader(false);
     }, 3000);
-  })
+  });
   // window.addEventListener("load", () => {
   //   setLoader(false)
   // })
   return (
     <>
-      {loader ?
-        <><Loader /> </> : ""
-      }
+      {loader ? (
+        <>
+          <Loader />
+        </>
+      ) : (
+        ""
+      )}
       <>
-        < Menu />
+        <Menu />
         <Header />
         <AboutUs />
         <GridLayout />

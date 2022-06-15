@@ -64,7 +64,7 @@ const AgencyEvent = () => {
                     </div>
 
                     <div className="row">
-                        <div className="col-9 mx-auto">
+                        <div className="col-lg-9 mx-auto">
                             <Swiper
                                 spaceBetween={30}
                                 centeredSlides={true}

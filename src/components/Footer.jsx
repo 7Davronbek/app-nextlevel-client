@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                 </div> */}
                     <div className="row justify-content-center">
-                        <div className="col-4">
+                        <div className="col-lg-4 text-center text-lg-start">
                             <div className="widget">
                                 <div className="logo">
                                     <a href="/">
@@ -27,12 +27,12 @@ const Footer = () => {
                                     </a>
                                 </div>
                                 <p className='log-p mb-3'>
-                                   Вас приветствует рекламно-производственная
+                                    Вас приветствует рекламно-производственная
                                     компания ООО «NEXT LEVEL» работающая под торговой маркой «Деловой Город»!
                                 </p>
                             </div>
                         </div>
-                        <div className="col-2 offset-1">
+                        <div className="col-lg-2 text-center offset-0 offset-lg-1">
                             <div className="widget">
                                 <h4 className="widget-title">Меню</h4>
                                 <ul className="footer-links flex-column d-flex">
@@ -43,7 +43,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-3 text-end">
+                        <div className="col-lg-3 text-center text-lg-end">
                             <div className="widget">
                                 <h4 className="widget-title">Контакты</h4>
                                 <div className="footer-contact  align-items-center d-flex justify-content-end">
@@ -62,7 +62,7 @@ const Footer = () => {
 
                                 <div className="footer-social">
                                     <h6>Следите за нами:</h6>
-                                    <div className="d-flex align-items-center justify-content-end">
+                                    <div className="d-flex align-items-center justify-content-lg-end justify-content-center">
                                         <a target={'_blank'} rel="noreferrer" href="!#">
                                             <FontAwesomeIcon icon={faInstagram} />
                                         </a>

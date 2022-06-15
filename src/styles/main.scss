@@ -451,7 +451,7 @@ html {
                     font-size: 40px;
                 }
 
-                @media(max-width: 385px) {
+                @media(max-width: 400px) {
                     font-size: 34px;
                 }
 
@@ -503,6 +503,18 @@ html {
                 font-size: 40px;
                 color: #333;
                 text-transform: uppercase;
+
+                @media(max-width: 520px) {
+                    font-size: 35px;
+                }
+
+                @media(max-width: 450px) {
+                    font-size: 30px;
+                }
+
+                @media(max-width: 400px) {
+                    font-size: 28px;
+                }
             }
 
             h3 {
@@ -681,6 +693,8 @@ html {
                 align-items: center;
                 justify-content: center;
 
+                
+
                 .left {
                     width: 50px;
                     height: 50px;
@@ -711,6 +725,21 @@ html {
                 font-weight: 600;
                 font-size: 48px;
                 margin-bottom: 20px;
+
+                @media(max-width:700px) {
+                    font-size: 35px;
+                }
+
+                @media(max-width:550px) {
+                    font-size: 30px;
+                }
+
+                @media(max-width:500px) {
+                    font-size: 28px;
+                }
+                @media(max-width:450px) {
+                    font-size: 25px;
+                }
             }
 
             img {
@@ -863,6 +892,20 @@ html {
             h1 {
                 font-weight: 600;
                 font-size: 48px;
+
+                @media(max-width: 700px) {
+                    font-size: 45px;
+                }
+
+                @media(max-width: 550px) {
+                    font-size: 40px;
+                }
+
+                @media(max-width: 550px) {
+                    font-size: 40px;
+                }
+
+
             }
 
             h2 {
@@ -1102,6 +1145,24 @@ html {
                     margin: 20px 0 20px;
                     color: $blue;
 
+
+                    @media (max-width:992px) {
+                        margin-top: 90px !important;
+
+                    }
+
+                    @media (max-width:700px) {
+                        margin-top: 80px !important;
+                        margin-bottom: 18px;
+
+                    }
+
+                    @media (max-width:550px) {
+                        margin-top: 70px !important;
+                        margin-bottom: 15px;
+
+                    }
+
                 }
 
                 h4 {
@@ -1131,6 +1192,24 @@ html {
                 p {
                     font-size: 20px;
                     color: #444;
+
+                    @media (max-width:992px) {
+                        margin-bottom: 10px;
+
+                    }
+
+                    @media (max-width:650px) {
+                        font-size: 18px;
+                        margin-bottom: 8px;
+
+                    }
+
+                    @media (max-width:450px) {
+                        font-size: 16px;
+                        margin-bottom: 8px;
+
+                    }
+
                 }
 
                 a {
@@ -1194,6 +1273,22 @@ html {
                 .cards {
                     padding: 60px;
 
+                    @media(max-width:1200px) {
+                        padding: 50px;
+                    }
+
+                    @media(max-width:1100px) {
+                        padding: 40px;
+                    }
+
+                    @media(max-width:700px) {
+                        padding: 30px;
+                    }
+
+                    @media(max-width:560px) {
+                        padding: 25px;
+                    }
+
                     h6 {
                         color: $pink;
                         font-size: 15px;
@@ -1229,6 +1324,14 @@ html {
                         font-size: 16px;
                         line-height: 24px;
                         color: #444444;
+
+                        @media(max-width:700px) {
+                            font-size: 15px;
+                        }
+
+                        @media(max-width:560px) {
+                            font-size: 14px;
+                        }
                     }
 
                     a {
@@ -1265,6 +1368,10 @@ html {
         .footer {
             padding: 100px 0;
             background: linear-gradient(360deg, #2c2c2c, #3e3e3e);
+
+            @media(max-width:600px) {
+                padding: 60px 0;
+            }
 
             p {
                 color: #cbcbcb;
@@ -1318,10 +1425,19 @@ html {
             .widget {
                 color: #fff;
 
+                @media(max-width:992px) {
+                    margin-top: 40px;
+                }
+
                 .widget-title {
                     font-size: 18px;
                     margin-bottom: 30px;
                     font-weight: 700;
+
+                    @media(max-width:992px) {
+                        margin-bottom: 20px;
+                    }
+
                 }
 
                 .footer-links {
@@ -1342,6 +1458,10 @@ html {
                     padding-bottom: 20px;
                     display: inline-block;
                     border-bottom: 1px solid #8f8f8f47;
+
+                    @media(max-width:992px) {
+                        justify-content: center !important;
+                    }
 
                     a {
                         font-size: 21px;
@@ -1390,6 +1510,11 @@ html {
         .forms {
             padding: 50px 0;
 
+            @media(max-width:500px) {
+                padding: 45px 0;
+
+            }
+
             .myBtn {
                 display: inline-block;
                 margin-top: 20px;
@@ -1399,6 +1524,18 @@ html {
 
             h1 {
                 margin-bottom: 40px;
+
+                @media(max-width:500px) {
+                    font-size: 37px;
+                }
+
+                @media(max-width:400px) {
+                    font-size: 33px;
+                }
+
+                @media(max-width:350px) {
+                    font-size: 30px;
+                }
             }
 
             .cards {
@@ -1451,6 +1588,11 @@ html {
                     transition: all .3s linear;
                     margin-bottom: 20px;
                     border-radius: 0;
+
+                    @media(max-width:500px) {
+                        height: 55px;
+                        font-size: 17px !important;
+                    }
                 }
             }
         }
@@ -1458,6 +1600,10 @@ html {
         .partners {
             background-color: #fff;
             padding-bottom: 80px;
+
+            .img {
+                text-align: center;
+            }
         }
     }
 }
@@ -1530,6 +1676,9 @@ html {
 
     a {
         font-size: 15px;
+
+        @media (max-width:400px) {
+        font-size: 13px;}
     }
 
     span {
