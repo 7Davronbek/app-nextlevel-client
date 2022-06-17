@@ -6,7 +6,7 @@ const Benefits = () => {
             <div className="benefits">
                 <div className="container">
                     <div className="row myRow">
-                        <div className="col-10 mx-auto">
+                        <div className="col-lg-10 mx-auto">
                             <div className="row">
                                 <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
                                     <div className="cards">

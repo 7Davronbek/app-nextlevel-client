@@ -693,8 +693,6 @@ html {
                 align-items: center;
                 justify-content: center;
 
-                
-
                 .left {
                     width: 50px;
                     height: 50px;
@@ -714,6 +712,10 @@ html {
                     font-size: 20px;
                     color: #fff;
                     margin-top: 6px;
+                }
+
+                @media(max-width: 767px) {
+                    justify-content: initial;
                 }
             }
         }
@@ -737,6 +739,7 @@ html {
                 @media(max-width:500px) {
                     font-size: 28px;
                 }
+
                 @media(max-width:450px) {
                     font-size: 25px;
                 }
@@ -1678,14 +1681,14 @@ html {
         font-size: 15px;
 
         @media (max-width:400px) {
-        font-size: 13px;}
+            font-size: 13px;
+        }
     }
 
     span {
         color: $pink;
     }
 }
-
 
 .mainLoader {
     padding: 1.5em 0;
