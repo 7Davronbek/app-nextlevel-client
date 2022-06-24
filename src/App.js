@@ -42,13 +42,13 @@ const App = () => {
         <AboutUs />
         <GridLayout />
         <Benefits />
-        <NextLevel />
-        <WorksGalary />
+        {/* <NextLevel /> */}
+        {/* <WorksGalary /> */}
         {/* <SumbitAgency /> */}
         {/* <LookingFor /> */}
-        <AgencyEvent />
-        <Portfolio />
-        <Partners />
+        {/* <AgencyEvent /> */}
+        {/* <Portfolio /> */}
+        {/* <Partners /> */}
         <Forms />
         <Footer />
       </>
