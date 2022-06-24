@@ -29,13 +29,13 @@ const App = () => {
   // })
   return (
     <>
-      {loader ? (
+      {/* {loader ? (
         <>
           <Loader />
         </>
       ) : (
         ""
-      )}
+      )} */}
       <>
         <Menu />
         <Header />

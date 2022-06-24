@@ -359,7 +359,7 @@ html {
         .menu {
             position: relative;
             background-color: #fff;
-            display: none;
+            // display: none;
 
             .menuWrap {
 
@@ -446,6 +446,7 @@ html {
                 text-align: center;
                 margin: 40px auto 26px;
                 margin-top: 270px;
+                margin-bottom: 250px;
 
                 @media(max-width: 992px) {
                     font-size: 40px;
