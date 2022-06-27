@@ -1,4 +1,6 @@
 import React from 'react'
+import { faFacebookF, faInstagram, faTelegram } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Forms = () => {
     return (
@@ -9,7 +11,43 @@ const Forms = () => {
                         <div className="col-12">
                             <h1 className='boldta text-center'>Связаться с Нами</h1>
                         </div>
-                        <div className="col-lg-10 mx-auto">
+                        <div className="col-lg-4 mx-auto">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="soc_box">
+                                        <a className='soc_a' target={'_blank'} rel="noreferrer" href="!#">
+                                            <FontAwesomeIcon icon={faFacebookF} />
+                                        </a>
+                                        <p>Город Ташкент, Яшнабадский район, Улица Ташсельмаш 8.</p>
+                                    </div>
+                                    <div className="soc_box">
+                                        <a className='soc_a' target={'_blank'} rel="noreferrer" href="!#">
+                                            <FontAwesomeIcon icon={faInstagram} />
+                                        </a>
+                                        <p>+998 90 823 28 38</p>
+                                    </div>
+                                    <div className="soc_box">
+                                        <a className='soc_a' target={'_blank'} rel="noreferrer" href="!#">
+                                            <FontAwesomeIcon icon={faTelegram} />
+                                        </a>
+                                        <p>Ориентир: улица Боткина</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="col-lg-4 mx-auto">
+                            <div className="map">
+                                <iframe
+                                    className="map_karta"
+                                    title="Location"
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5996.014654079966!2d69.151491!3d41.286945!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe333e071222b1f31!2zNDHCsDE3JzEzLjAiTiA2OcKwMDknMDUuNCJF!5e0!3m2!1sru!2s!4v1653649434628!5m2!1sru!2s"
+                                    loading="lazy"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 mx-auto">
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="cards">
