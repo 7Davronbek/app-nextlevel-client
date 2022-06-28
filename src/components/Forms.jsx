@@ -37,7 +37,7 @@ const Forms = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 mx-auto">
-                            <div className="map">
+                            <div className="map h-100">
                                 <iframe
                                     className="map_karta"
                                     title="Location"
