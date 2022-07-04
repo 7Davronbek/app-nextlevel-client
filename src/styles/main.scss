@@ -410,7 +410,7 @@ html {
                     align-items: center;
                     justify-content: center;
                     text-align: center;
-                    border-right: 1px solid #72B431; 
+                    border-right: 1px solid #72B431;
                 }
             }
 
@@ -540,7 +540,7 @@ html {
                 text-align: center;
                 letter-spacing: -0.03em;
                 color: #640C9E;
-                
+
 
                 @media(max-width: 520px) {
                     font-size: 35px;
@@ -573,7 +573,7 @@ html {
                 margin-top: 31px;
                 text-align: center;
                 letter-spacing: -0.03em;
-                
+
             }
 
             .wrap {
@@ -942,7 +942,10 @@ html {
         .myWrap {
             position: relative;
 
-            .bg1, .bg2, .bg3, .bg4 {
+            .bg1,
+            .bg2,
+            .bg3,
+            .bg4 {
                 position: absolute;
             }
 
@@ -1462,7 +1465,7 @@ html {
                 letter-spacing: -0.03em;
                 color: #FFFFFF;
                 text-transform: none;
-                padding: 36px 58px;
+                padding: 20px 60px;
                 background: #72b431;
                 margin-top: 47px;
                 border-radius: 10px;
