@@ -1,11 +1,12 @@
 import React from 'react'
+import VacanciesCard from '../components/VacanciesCard'
 
 const Vacancies = () => {
-  return (
-    <>
-        
-    </>
-  )
+    return (
+        <>
+            <VacanciesCard />
+        </>
+    )
 }
 
 export default Vacancies

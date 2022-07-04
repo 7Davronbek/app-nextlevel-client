@@ -1,6 +1,7 @@
 import React from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Main from "./pages/Main";
+import Vacancies from "./pages/Vacancies";
 
 const App = () => {
     // const [loader, setLoader] = useState(true);
@@ -17,6 +18,7 @@ const App = () => {
             <HashRouter>
                 <Routes>
                     <Route path="/" element={<Main />} />
+                    <Route path="/vacancies" element={<Vacancies />} />
                 </Routes>
             </HashRouter>
         </>
