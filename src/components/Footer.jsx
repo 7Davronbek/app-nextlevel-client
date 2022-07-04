@@ -67,7 +67,7 @@ const Footer = () => {
                             <div className="widget">
                                 <div className="logo">
                                     {/* <a href='#'> */}
-                                        <img className='w-100' src="/assets/image/footerLogo.png" alt="" />
+                                    <img className='w-100' src="/assets/image/footerLogo.png" alt="" />
                                     {/* </a> */}
                                 </div>
                                 {/* <p className='log-p mb-3'>
