@@ -925,6 +925,38 @@ html {
             }
         }
 
+        .myWrap {
+            position: relative;
+
+            .bg1, .bg2, .bg3, .bg4 {
+                position: absolute;
+            }
+
+            .bg1 {
+                top: -150px;
+                left: -50px;
+                z-index: -1;
+            }
+
+            .bg2 {
+                bottom: -132px;
+                left: -50px;
+                z-index: -1;
+            }
+
+            .bg3 {
+                top: -190px;
+                right: -50px;
+                z-index: -1;
+            }
+
+            .bg4 {
+                bottom: -160px;
+                right: -50px;
+                z-index: -1;
+            }
+        }
+
         .worksGalary {
             padding: 80px 0 50px;
 
