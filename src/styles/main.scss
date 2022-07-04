@@ -450,13 +450,10 @@ html {
             background-attachment: fixed;
             background-position: center;
             overflow: hidden;
-
-            h6 {
-                color: #eeecec;
-                font-size: 20px;
-                margin-top: 160px;
-                margin-bottom: 20px;
-            }
+            height: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             h1 {
                 font-size: 80px;
@@ -465,9 +462,9 @@ html {
                 font-weight: 600;
                 // width: 80%;
                 text-align: center;
-                margin: 40px auto 26px;
-                margin-top: 270px;
-                margin-bottom: 250px;
+                // margin: 40px auto 26px;
+                // margin-top: 270px;
+                // margin-bottom: 250px;
 
                 @media(max-width: 992px) {
                     font-size: 40px;
@@ -522,9 +519,14 @@ html {
             }
 
             h2 {
-                font-size: 40px;
-                color: #333;
                 text-transform: uppercase;
+                font-weight: 400;
+                font-size: 53px;
+                line-height: 60px;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: #640C9E;
+                
 
                 @media(max-width: 520px) {
                     font-size: 35px;
@@ -540,21 +542,38 @@ html {
             }
 
             h3 {
-                color: #333;
-                font-size: 26px;
+                font-weight: 400;
+                font-size: 34.201px;
+                line-height: 29px;
+                margin-top: 8px;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: #640C9E;
             }
 
             h4,
             h5 {
-                font-size: 16px;
                 font-weight: 400;
-                margin-top: 25px;
-                color: #444444;
+                font-size: 21px;
+                line-height: 29px;
+                margin-top: 31px;
+                text-align: center;
+                letter-spacing: -0.03em;
+                
             }
 
             .btn {
-                font-size: 15px;
-                margin-top: 52px;
+                font-weight: 600;
+                font-size: 21px;
+                line-height: 108.2%;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: #FFFFFF;
+                text-transform: none;
+                padding: 36px 58px;
+                background: #640C9E;
+                margin-top: 47px;
+                border-radius: 10px;
             }
 
             .wrap {
