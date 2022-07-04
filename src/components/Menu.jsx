@@ -3,7 +3,7 @@ import React from 'react'
 const Menu = () => {
     return (
         <>
-            <div style={{backgroundColor: "#fff"}} className="gif">
+            <div style={{ backgroundColor: "#fff" }} className="gif">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 d-flex align-items-center justify-content-center">
@@ -14,7 +14,7 @@ const Menu = () => {
                                 playsInline
                                 muted >
                                 <source
-                                    src="/assets/image/gif.mp4"
+                                    src="/assets/image/gif2.mp4"
                                     type="video/mp4"
                                     id="bgvid"
                                 />
