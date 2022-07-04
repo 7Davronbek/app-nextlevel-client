@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+// import React, { useState } from "react";
+// import { useEffect } from "react";
 import AboutUs from "./components/AboutUs";
 // import AgencyEvent from "./components/AgencyEvent";
 import Benefits from "./components/Benefits";
@@ -18,12 +18,12 @@ import Menu from "./components/Menu";
 // import Loader from "./components/Loader";
 
 const App = () => {
-    const [loader, setLoader] = useState(true);
-    useEffect(() => {
-        setTimeout(() => {
-            setLoader(false);
-        }, 3000);
-    }, []);
+    // const [loader, setLoader] = useState(true);
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setLoader(false);
+    //     }, 3000);
+    // }, []);
     // window.addEventListener("load", () => {
     //   setLoader(false)
     // })
