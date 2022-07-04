@@ -230,15 +230,20 @@ html {
         }
 
         .myBtn {
-            user-select: none;
-            font-weight: 600;
-            border-radius: 0;
-            box-shadow: none;
-            font-size: 18px;
-            color: #fff;
-            background-color: $blue;
-            padding: 23px 45px;
-            cursor: pointer;
+
+            &.btn {
+                font-weight: 600;
+                font-size: 21px;
+                line-height: 108.2%;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: #FFFFFF;
+                text-transform: none;
+                padding: 36px 58px;
+                background: #640C9E;
+                margin-top: 47px;
+                border-radius: 10px;
+            }
         }
 
         .nextParralax {
@@ -562,20 +567,6 @@ html {
                 
             }
 
-            .btn {
-                font-weight: 600;
-                font-size: 21px;
-                line-height: 108.2%;
-                text-align: center;
-                letter-spacing: -0.03em;
-                color: #FFFFFF;
-                text-transform: none;
-                padding: 36px 58px;
-                background: #640C9E;
-                margin-top: 47px;
-                border-radius: 10px;
-            }
-
             .wrap {
                 position: relative;
                 height: 400px;
@@ -762,12 +753,16 @@ html {
         }
 
         .gridLayout {
-            padding: 80px 0 50px;
+            padding: 80px 0 120px;
 
             h1 {
-                font-weight: 600;
-                font-size: 48px;
-                margin-bottom: 20px;
+                font-weight: 500;
+                font-size: 64.1062px;
+                line-height: 69px;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: #191919;
+                margin-bottom: 88px;
 
                 @media(max-width:700px) {
                     font-size: 35px;
@@ -793,7 +788,7 @@ html {
 
             .myBtn {
                 display: inline-block;
-                margin-top: 20px;
+                margin-top: 47px;
             }
 
             .gallery {
