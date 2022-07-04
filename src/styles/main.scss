@@ -1534,9 +1534,11 @@ html {
                 }
 
                 .widget-title {
-                    font-size: 25px;
-                    margin-bottom: 30px;
                     font-weight: 700;
+                    font-size: 22.8485px;
+                    line-height: 154.2%;
+                    color: #FFFFFF;
+                    margin-bottom: 8px;
 
                     @media(max-width:992px) {
                         margin-bottom: 20px;
@@ -1546,7 +1548,10 @@ html {
 
 
                 .widget_phone {
-                    font-size: 23px;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 154.2%;
+                    color: #FFFFFF !important;
                 }
 
                 .footer-links {
