@@ -15,6 +15,11 @@ $secondaryWhite: #F8F8F8;
 }
 
 @font-face {
+    font-family: "Gotha-Regular";
+    src: url("../fonts/GothaProReg.otf") format("truetype");
+}
+
+@font-face {
     font-family: "Gotha-Med";
     src: url("../fonts/GothaProNarMed.otf") format("truetype");
 }
@@ -22,6 +27,10 @@ $secondaryWhite: #F8F8F8;
 @font-face {
     font-family: "Gotha-Reg";
     src: url("../fonts/GothaProReg.otf") format("truetype");
+}
+
+.regular {
+    font-family: "Gotha-Regular";
 }
 
 .medium {
@@ -115,7 +124,7 @@ html {
     body {
         background-color: #e5e5e5;
         color: #222;
-        font-family: "Gotha-Reg";
+        font-family: "Gotha-Regular";
         font-style: normal;
 
         ul,
@@ -715,6 +724,7 @@ html {
 
         .benefits {
             background-color: $blue;
+            padding: 50px 0;
 
             .myRow {
                 background-color: $blue;
@@ -727,9 +737,12 @@ html {
                 justify-content: center;
 
                 .left {
-                    width: 50px;
-                    height: 50px;
-                    margin-right: 35px;
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 31px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
 
                     img {
                         width: 100%;
