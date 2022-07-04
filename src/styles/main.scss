@@ -359,10 +359,27 @@ html {
         .menu {
             position: relative;
             background-color: #fff;
+            border-top: 1px solid #72B431;
             // display: none;
 
+            .socials {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    width: 90px;
+                    height: 90px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-left: 1px solid #72B431;
+                }
+            }
+
             .myCol {
-                border: 1px solid #72B431;
+                justify-content: space-between;
+                padding: 0;
             }
 
             .menuWrap {
@@ -373,7 +390,7 @@ html {
                     line-height: 34px;
                     letter-spacing: -0.03em;
                     color: #640C9E;
-                    width: 250px;
+                    width: 230px;
                     height: 90px;
                     display: flex;
                     align-items: center;

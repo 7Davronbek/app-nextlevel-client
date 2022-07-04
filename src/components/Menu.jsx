@@ -32,14 +32,13 @@ const Menu = () => {
                                 <a href="#service">Контакты</a>
                                 <a href="#work">О нас </a>
                                 <a href="#news">Вакансии</a>
-                                {/* <div className="burger">
-                                    <span><img src="/assets/image/burger.png" alt="" /></span>
-                                    MENU
-                                </div> */}
-                                {/* <div className="search"><img src="/assets/image/search.png" alt="" /></div> */}
                             </div>
-                            {/* <div className="logo"><img src="/assets/image/logo.png" alt="" /></div> */}
-                            <h6><a href="#forms">Оставить заявку</a></h6>
+                            <div className="socials">
+                                <a href="#"><img src="/assets/icon/insta.svg" alt="" /></a>
+                                <a href="#"><img src="/assets/icon/tg.svg" alt="" /></a>
+                                <a href="#"><img src="/assets/icon/fb.svg" alt="" /></a>
+                                <a href="#"><img src="/assets/icon/mail.svg" alt="" /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
