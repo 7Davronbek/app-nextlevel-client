@@ -1452,7 +1452,26 @@ html {
 
         .footer {
             padding: 90px 0;
-            background: linear-gradient(360deg, #2c2c2c, #3e3e3e);
+            background-color: $blue;
+
+            .btn {
+                font-weight: 600;
+                font-size: 21px;
+                line-height: 108.2%;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: #FFFFFF;
+                text-transform: none;
+                padding: 36px 58px;
+                background: #72b431;
+                margin-top: 47px;
+                border-radius: 10px;
+                width: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin:35px auto 0 !important;
+            }
 
             @media(max-width:600px) {
                 padding: 60px 0;

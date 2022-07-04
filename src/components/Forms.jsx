@@ -77,8 +77,8 @@ const Forms = () => {
                                         </span>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 ms-auto text-end">
-                                    <div className="myBtn">Отправить</div>
+                                <div className="col-lg-7 ms-auto text-end">
+                                    <div className="myBtn btn">Отправить</div>
                                 </div>
                             </div>
                         </div>

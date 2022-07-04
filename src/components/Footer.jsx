@@ -19,11 +19,12 @@ const Footer = () => {
                     </div>
                 </div> */}
                     <div className="row justify-content-center align-items-center">
+
                         <div className="col-lg-3 text-center ">
                             <div className="widget">
                                 <div className="logo">
                                     <a href="/">
-                                        <img src="../assets/icon/logo.png" alt="" />
+                                        <img src="/assets/image/logoFooter.png" alt="" />
                                     </a>
                                 </div>
                                 {/* <p className='log-p mb-3'>
@@ -32,11 +33,13 @@ const Footer = () => {
                                 </p> */}
                             </div>
                         </div>
-                        <div className="col-lg-4 text-center ">
+
+                        <div className="col-lg-5 text-center ">
                             <div className="widget">
-                                <h4 className="widget-title">Меню</h4>
+                                <h4 className="widget-title">Контакты</h4>
                                 <ul className="footer-links flex-column d-flex">
-                                    <a className='widget_phone' href="">+998903007070</a>
+                                    <a className='widget_phone' href="tel: +998 78 129 70 70">+998 78 129 70 70</a>
+                                    <a className='widget_phone' href="tel: +998 98 124 31 24">+998 98 124 31 24</a>
                                 </ul>
                                 <div className="footer-social">
                                     <div className="d-flex align-items-center justify-content-center justify-content-center">
@@ -55,16 +58,17 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <ul className="footer-links flex-column d-flex">
-                                    <a className='widget_phone' href="">info@gmail.com</a>
+                                    <button className="btn myBtn">Связаться с нами</button>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 text-center ">
+
+                        <div className="col-lg-4 text-center ">
                             <div className="widget">
                                 <div className="logo">
-                                    <a href="/">
-                                        <img src="../assets/icon/logo.png" alt="" />
-                                    </a>
+                                    {/* <a href='#'> */}
+                                        <img className='w-100' src="/assets/image/footerLogo.png" alt="" />
+                                    {/* </a> */}
                                 </div>
                                 {/* <p className='log-p mb-3'>
                                     Вас приветствует рекламно-производственная
