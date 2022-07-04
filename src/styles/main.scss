@@ -361,22 +361,26 @@ html {
             background-color: #fff;
             // display: none;
 
+            .myCol {
+                border: 1px solid #72B431;
+            }
+
             .menuWrap {
 
                 a {
-                    color: #000;
-                    margin-right: 20px;
-                    font-size: 24px;
+                    font-weight: 400;
+                    font-size: 31.5228px;
+                    line-height: 34px;
+                    letter-spacing: -0.03em;
+                    color: #640C9E;
+                    width: 250px;
+                    height: 90px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    border-right: 1px solid #72B431; 
                 }
-            }
-
-            .search {
-                width: 60px;
-                border-right: 1px solid silver;
-                height: 70px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
             }
 
             h6 {

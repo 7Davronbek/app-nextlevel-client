@@ -3,7 +3,7 @@ import React from 'react'
 const Menu = () => {
     return (
         <>
-            <div style={{ backgroundColor: "#fff" }} className="gif">
+            <div style={{ backgroundColor: "#fff" }} className="gif py-2">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 d-flex align-items-center justify-content-center">
@@ -26,12 +26,12 @@ const Menu = () => {
             <div className="menu">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 d-flex align-items-center">
+                        <div className="col-12 myCol d-flex align-items-center">
                             <div className='d-flex align-items-center menuWrap'>
-                                <a href="#aboutUs">О нас</a>
-                                <a href="#service">Услуги</a>
-                                <a href="#work">Наши работы</a>
-                                <a href="#news">Новости</a>
+                                <a href="#aboutUs">Продукция и услуги</a>
+                                <a href="#service">Контакты</a>
+                                <a href="#work">О нас </a>
+                                <a href="#news">Вакансии</a>
                                 {/* <div className="burger">
                                     <span><img src="/assets/image/burger.png" alt="" /></span>
                                     MENU
