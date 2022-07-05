@@ -29,7 +29,7 @@ const Menu = () => {
                     <div className="row">
                         <div className="col-12 myCol d-flex align-items-center">
                             <div className='d-flex align-items-center menuWrap'>
-                                <a href="#aboutUs">Продукция и услуги</a>
+                                <Link to="/productions">Продукция и услуги</Link>
                                 <a href="#service">Контакты</a>
                                 <a href="#work">О нас </a>
                                 <Link to="/vacancies">Вакансии</Link>

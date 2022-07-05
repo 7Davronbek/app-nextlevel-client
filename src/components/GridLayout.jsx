@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const GridLayout = () => {
     return (
@@ -119,7 +120,7 @@ const GridLayout = () => {
                                 </div> */}
                             </div>
 
-                            <a href='/' className="btn myBtn">Посмотреть все</a>
+                            <Link to='/productions' className="btn myBtn">Посмотреть все</Link>
                         </div>
                     </div>
                 </div>

@@ -3,6 +3,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Menu from "./components/Menu";
 import Main from "./pages/Main";
+import Productions from "./pages/Productions";
 import Vacancies from "./pages/Vacancies";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Main />} />
                     <Route path="/vacancies" element={<Vacancies />} />
+                    <Route path="/productions" element={<Productions />} />
                 </Routes>
                 <Footer />
             </Router>
