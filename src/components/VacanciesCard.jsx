@@ -5,8 +5,9 @@ const VacanciesCard = () => {
         <div className='VacanciesCard'>
             <div className="container">
                 <div className="row">
+
                     <div className="col-12">
-                        <h1 className="bolta">Вакансии</h1>
+                        <h1 className="medium">Вакансии</h1>
                     </div>
 
                     <div className="col-lg-5">

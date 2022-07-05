@@ -1,16 +1,13 @@
 import React from 'react'
 import AboutUs from '../components/AboutUs'
 import Benefits from '../components/Benefits'
-import Footer from '../components/Footer'
 import Forms from '../components/Forms'
 import GridLayout from '../components/GridLayout'
 import Header from '../components/Header'
-import Menu from '../components/Menu'
 
 const Main = () => {
     return (
         <>
-            <Menu />
             <Header />
             <div className="myWrap">
                 <div className="bg1"><img src="/assets/image/bgLeft.png" alt="" /></div>
@@ -29,7 +26,6 @@ const Main = () => {
             {/* <Portfolio /> */}
             {/* <Partners /> */}
             <Forms />
-            <Footer />
         </>
     )
 }

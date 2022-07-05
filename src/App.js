@@ -1,5 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Menu from "./components/Menu";
 import Main from "./pages/Main";
 import Vacancies from "./pages/Vacancies";
 
@@ -16,10 +18,12 @@ const App = () => {
     return (
         <>
             <Router>
+                <Menu />
                 <Routes>
                     <Route path="/" element={<Main />} />
                     <Route path="/vacancies" element={<Vacancies />} />
                 </Routes>
+                <Footer />
             </Router>
         </>
     );
