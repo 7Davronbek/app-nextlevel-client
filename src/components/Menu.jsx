@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Menu = () => {
     return (
@@ -31,7 +32,7 @@ const Menu = () => {
                                 <a href="#aboutUs">Продукция и услуги</a>
                                 <a href="#service">Контакты</a>
                                 <a href="#work">О нас </a>
-                                <a href="#news">Вакансии</a>
+                                <Link to="/vacancies">Вакансии</Link>
                             </div>
                             <div className="socials">
                                 <a href="#"><img src="/assets/icon/insta.svg" alt="" /></a>
