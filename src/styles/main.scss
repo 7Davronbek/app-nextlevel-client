@@ -1525,6 +1525,18 @@ html {
             }
         }
 
+        .Product {
+
+            h1 {
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 108.2%;
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: $blue;
+            }
+        }
+
         .Order {
             position: fixed;
             top: 0;
