@@ -5,7 +5,7 @@ const Order = ({modal, setModal}) => {
         <div className={`Order ${modal ? 'active' : ''}`}>
             <div className="container">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-lg-8 mx-auto">
                         <div className="cards">
                             <h1 className='medium'>Заказать</h1>
                             <input type="text" className="form-control" placeholder='Имя Фамилия' />
@@ -15,6 +15,7 @@ const Order = ({modal, setModal}) => {
                             </div>
                         </div>
                     </div>
+                    <div onClick={() => setModal(false)} className="back"></div>
                 </div>
             </div>
         </div>
