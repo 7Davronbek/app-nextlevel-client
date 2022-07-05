@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Order = () => {
+const Order = ({modal, setModal}) => {
     return (
-        <div className='Order'>
+        <div className={`Order ${modal ? 'active' : ''}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="cards">
-                            <h1>Заказать</h1>
+                            <h1 className='medium'>Заказать</h1>
                             <input type="text" className="form-control" placeholder='Имя Фамилия' />
                             <input type="text" className="form-control" placeholder='Номер телефона' />
                             <div className="d-flex align-items-center justify-content-center">

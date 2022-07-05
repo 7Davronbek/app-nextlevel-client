@@ -1,8 +1,11 @@
 import { faFacebookF, faInstagram, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import { useState } from 'react'
+import Order from './Order'
 
 const Footer = () => {
+    const [modal, setModal] = useState(false)
     return (
 
         <>
@@ -58,7 +61,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <ul className="footer-links flex-column d-flex">
-                                    <button className="btn myBtn">Связаться с нами</button>
+                                    <button onClick={() => setModal(!modal)} className="btn myBtn">Связаться с нами</button>
                                 </ul>
                             </div>
                         </div>
@@ -84,6 +87,8 @@ const Footer = () => {
             <div className="koko">
                 <a target={'_blank'} rel="noreferrer" href="https://kokoagency.uz/#/">© 2022 NEXT LEVEL by <span>kOkO Digital Agency</span></a>
             </div>
+
+            <Order modal={modal} setModal={setModal}  />
         </>
     )
 }

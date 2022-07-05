@@ -1523,6 +1523,50 @@ html {
             }
         }
 
+        .Order {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #b6c9ff8f;
+            backdrop-filter: blur(20px);
+            width: 100%;
+            height: 100vh;
+
+            .cards {
+                width: 800px;
+                margin: auto;
+                background: #f5f5f5;
+                padding: 60px 90px;
+                border-radius: 25px;
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 108.2%;
+                    text-align: center;
+                    margin-bottom: 54px;
+                    letter-spacing: -0.03em;
+                    color: #640C9E;
+                }
+
+                input {
+                    background: #F5F5F5;
+                    border-radius: 7.60377px;
+                    font-weight: 400;
+                    font-size: 21.0566px;
+                    line-height: 108.2%;
+                    letter-spacing: -0.03em;
+                    margin-bottom: 14px;
+                    color: rgba(25, 25, 25, 0.5);
+                }
+            }
+        }
+
         .footer {
             padding: 90px 0;
             background-color: $blue;
