@@ -31,7 +31,7 @@ const AboutUs = () => {
                             <h5>
 
                             </h5>
-                            <button onClick={() => setModal(true)} className='btn  myBtn'>Узнать больше</button>
+                            <button onClick={() => setModal(true)} className='btn  myBtn'>Подробнее</button>
                         </div>
                     </div>
                 </div>

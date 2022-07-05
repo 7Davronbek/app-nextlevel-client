@@ -9,7 +9,7 @@ const Forms = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h1 className='boldta text-center'>Связаться с Нами</h1>
+                            <h1 className='boldta text-center'>Наш адресс</h1>
                         </div>
                         <div className="col-lg-4 mx-auto">
                             <div className="row">

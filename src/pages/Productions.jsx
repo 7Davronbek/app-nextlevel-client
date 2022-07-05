@@ -1,5 +1,8 @@
 import React from 'react'
+import Benefits from '../components/Benefits'
 import Product from '../components/Product'
+import Partners from '../components/Partners'
+import Forms from '../components/Forms'
 
 const Productions = () => {
     return (
@@ -12,8 +15,12 @@ const Productions = () => {
 
                 <Product />
             </div>
-
             
+            <Benefits />
+            <Partners />
+            <Forms />
+
+
         </>
     )
 }

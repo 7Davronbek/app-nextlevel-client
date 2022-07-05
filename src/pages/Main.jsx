@@ -25,7 +25,6 @@ const Main = () => {
             {/* <AgencyEvent /> */}
             {/* <Portfolio /> */}
             {/* <Partners /> */}
-            <Forms />
         </>
     )
 }
