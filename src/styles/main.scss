@@ -1830,6 +1830,7 @@ html {
 
             h1 {
                 margin-bottom: 40px;
+                color: $blue;
 
                 @media(max-width:500px) {
                     font-size: 37px;
@@ -1906,6 +1907,10 @@ html {
         .partners {
             background-color: #fff;
             padding-bottom: 80px;
+
+            h1 {
+                color: $blue;
+            }
 
             .img {
                 text-align: center;

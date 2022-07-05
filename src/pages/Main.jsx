@@ -1,7 +1,6 @@
 import React from 'react'
 import AboutUs from '../components/AboutUs'
-import Benefits from '../components/Benefits'
-import Forms from '../components/Forms'
+// import Benefits from '../components/Benefits'
 import GridLayout from '../components/GridLayout'
 import Header from '../components/Header'
 
@@ -17,7 +16,7 @@ const Main = () => {
                 <AboutUs />
                 <GridLayout />
             </div>
-            <Benefits />
+            {/* <Benefits /> */}
             {/* <NextLevel /> */}
             {/* <WorksGalary /> */}
             {/* <SumbitAgency /> */}
