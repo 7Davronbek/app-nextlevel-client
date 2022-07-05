@@ -10,12 +10,12 @@ const VacanciesCard = () => {
                         <h1 className="medium">Вакансии</h1>
                     </div>
 
-                    <div className="col-lg-5">
+                    <div className="col-lg-6">
                         <div className="cards">
                             <h2>Название должности</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in diam et consequat. Tellus dictum at lectus sodales nam rhoncus. Sed morbi sapien, ac purus vitae iaculis. Tincidunt dolor amet turpis nisl a ut tellus massa, vel. Nullam molestie ornare urna integer nibh massa non pretium.</h3>
 
-                            <div className="d-flex">
+                            <div className="d-flex justify-content-between">
                                 <div>
                                     <p>Dolor sit amet</p>
                                     <p>Tellus dictum at lectus</p>
@@ -24,11 +24,13 @@ const VacanciesCard = () => {
                                 <div>
                                     <p>Dolor sit amet</p>
                                     <p>Tellus dictum at lectus</p>
-                                    <p>9:00 - 18:00   </p>    
+                                    <p>9:00 - 18:00   </p>
                                 </div>
                             </div>
 
-                            <div className="btn myBtn">Оставить заявку</div>
+                            <div className='d-flex align-items-center justify-content-center'>
+                                <div className="btn myBtn">Оставить заявку</div>
+                            </div>
 
                         </div>
                     </div>

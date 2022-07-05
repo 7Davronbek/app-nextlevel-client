@@ -1468,8 +1468,10 @@ html {
             }
 
             .cards {
-                background: #F5F5F5;
+                background: #f1f1f1;
                 border-radius: 13px;
+                box-shadow: 0 0 10px #c0c0c0c2;
+                padding: 24px 29px;
 
                 h2 {
                     font-weight: 400;
@@ -1478,6 +1480,8 @@ html {
                     letter-spacing: -0.03em;
                     color: #640C9E;
                     margin-bottom: 15px;
+                    text-align: center;
+                    font-weight: 600;
                 }
 
                 h3 {
@@ -1491,6 +1495,30 @@ html {
 
                 p {
                     padding-left: 20px;
+                    position: relative;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 24px;
+                    letter-spacing: -0.03em;
+                    color: #640C9E;
+                    margin-bottom: 9px;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 0;
+                        background-color: #72B431;
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .btn {
+                    padding: 24px 30px;
+                    margin: 30px auto auto;
                 }
             }
         }
