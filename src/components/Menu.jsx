@@ -16,7 +16,7 @@ const Menu = () => {
                                     playsInline
                                     muted >
                                     <source
-                                        src="/assets/image/gif.mp4"
+                                        src="/assets/image/1.mp4"
                                         type="video/mp4"
                                         id="bgvid"
                                     />
