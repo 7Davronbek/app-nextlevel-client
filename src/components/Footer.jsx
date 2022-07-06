@@ -1,11 +1,9 @@
 import { faFacebookF, faInstagram, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import { useState } from 'react'
 import Order from './Order'
 
-const Footer = () => {
-    const [modal, setModal] = useState(false)
+const Footer = ({modal, setModal}) => {
     return (
 
         <>

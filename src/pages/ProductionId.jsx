@@ -1,10 +1,10 @@
 import React from 'react'
 import ProductId from '../components/ProductId'
 
-const ProductionId = () => {
+const ProductionId = ({modal, setModal}) => {
   return (
     <>
-        <ProductId />
+        <ProductId modal={modal} setModal={setModal}  />
     </>
   )
 }
