@@ -7,13 +7,13 @@ const Forms = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-12">
-                            <h1 className='boldta text-center'>Наш адресс</h1>
+                            <h1 className='boldta text-center'>Наш адрес</h1>
                         </div>
                         <div className="col-lg-4 mx-auto text-center">
                             <div className="row">
                                 <div className="col-lg-12">
 
-                                    <h3>Адресс</h3>
+                                    <h3 className='regular'>Адрес</h3>
                                     <p>г. Ташкент, Юнус-Абадский р-н, ул. Бодомзор, проезд 1, д. 85.</p>
 
                                     <h3 className='myH3'>Телефон</h3>

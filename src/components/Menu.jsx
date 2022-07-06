@@ -9,17 +9,19 @@ const Menu = () => {
                     <div className="row">
                         <div className="col-12 d-flex align-items-center justify-content-center">
                             {/* <video src="/assets/image/gif.mp4"></video> */}
-                            <video className='video'
-                                autoPlay
-                                loop
-                                playsInline
-                                muted >
-                                <source
-                                    src="/assets/image/gif2.mp4"
-                                    type="video/mp4"
-                                    id="bgvid"
-                                />
-                            </video>
+                            <Link to='/'>
+                                <video className='video'
+                                    autoPlay
+                                    loop
+                                    playsInline
+                                    muted >
+                                    <source
+                                        src="/assets/image/gif2.mp4"
+                                        type="video/mp4"
+                                        id="bgvid"
+                                    />
+                                </video>
+                            </Link>
                         </div>
                     </div>
                 </div>
