@@ -11,7 +11,7 @@ const ProductId = ({ modal, setModal }) => {
             <div className='ProductId'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-10 mx-auto">
+                        <div className="col-lg-8 mx-auto">
                             <h1 className="medium">Продукт</h1>
                             <div className="img">
                                 <a href={`/assets/image/port1.jpg`} data-fancybox="gallery" ><img src="/assets/image/port1.jpg" alt="" /></a>
