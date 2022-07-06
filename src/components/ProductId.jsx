@@ -1,7 +1,8 @@
 import React from 'react'
+import GridLayout from './GridLayout'
 import Order from './Order'
 
-const ProductId = ({modal, setModal}) => {
+const ProductId = ({ modal, setModal }) => {
     return (
         <>
             <div className='ProductId'>
@@ -10,7 +11,7 @@ const ProductId = ({modal, setModal}) => {
                         <div className="col-12">
                             <h1 className="medium">Продукт</h1>
                             <div className="img">
-                                <img src="/assets/image/port4.webp" alt="" />
+                                <img src="/assets/image/port14.jpg" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-8">
@@ -26,7 +27,8 @@ const ProductId = ({modal, setModal}) => {
                 </div>
             </div>
 
-            <Order  />
+            <GridLayout />
+            <Order />
         </>
     )
 }
