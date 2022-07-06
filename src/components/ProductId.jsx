@@ -1,6 +1,9 @@
 import React from 'react'
 import GridLayout from './GridLayout'
 import Order from './Order'
+import { Fancybox, Carousel, Panzoom } from "@fancyapps/ui";
+
+import "@fancyapps/ui/dist/fancybox.css";
 
 const ProductId = ({ modal, setModal }) => {
     return (
@@ -8,10 +11,10 @@ const ProductId = ({ modal, setModal }) => {
             <div className='ProductId'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
+                        <div className="col-lg-10 mx-auto">
                             <h1 className="medium">Продукт</h1>
                             <div className="img">
-                                <img src="/assets/image/port14.jpg" alt="" />
+                                <a href={`/assets/image/port1.jpg`} data-fancybox="gallery" ><img src="/assets/image/port1.jpg" alt="" /></a>
                             </div>
                         </div>
                         <div className="col-lg-8">
