@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Product = () => {
     return (
@@ -12,10 +13,10 @@ const Product = () => {
                         <div className="col-lg-11 mx-auto text-center">
 
                             <div className="image-gallary">
-                                <div className="image-box">
+                                <Link to='/productions/id' className="image-box">
                                     <img src={`/assets/image/port1.jpg`} alt="" />
                                     <h6 className="fira">Торговое оборудование</h6>
-                                </div>
+                                </Link>
                                 <div className="image-box">
                                     <img src={`/assets/image/port2.jpg`} alt="" />
                                     <h6 className="fira">POSM</h6>
