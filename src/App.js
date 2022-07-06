@@ -3,6 +3,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Forms from "./components/Forms";
 import Menu from "./components/Menu";
+import ScrollToTop from "./components/ScrollToTop";
 import AboutUsPage from "./pages/AboutUsPage";
 import Main from "./pages/Main";
 import ProductionId from "./pages/ProductionId";
@@ -24,6 +25,7 @@ const App = () => {
         <>
             <Router>
                 <Menu />
+                <ScrollToTop />
                 <Routes>
                     <Route path="/" element={<Main />} />
                     <Route path="/vacancies" element={<Vacancies />} />

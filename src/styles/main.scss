@@ -521,7 +521,7 @@ html {
         }
 
         .aboutUs {
-            padding: 200px 0 110px;
+            padding: 110px 0 110px;
 
             h1 {
                 font-size: 17px;
@@ -1809,6 +1809,32 @@ html {
                     padding-right: 20px;
                     color: $pink;
                     font-size: 20px;
+                }
+            }
+
+            h3 {
+                font-weight: 400;
+                font-size: 44px;
+                line-height: 108.2%;
+                letter-spacing: -0.03em;
+                margin-bottom: 18px;
+
+                &.myH3 {
+                    margin-top: 35px;
+                }
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 108.2%;
+                letter-spacing: -0.03em;
+                color: #3c3c3c;
+
+                a {
+                    color: #3c3c3c;
+                    margin-top: 10px;
+                    display: block;
                 }
             }
 

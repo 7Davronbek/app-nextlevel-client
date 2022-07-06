@@ -1,43 +1,34 @@
 import React from 'react'
-import { faFacebookF, faInstagram, faTelegram } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Forms = () => {
     return (
         <>
             <div id='forms' className="forms">
                 <div className="container">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-12">
                             <h1 className='boldta text-center'>Наш адресс</h1>
                         </div>
-                        <div className="col-lg-4 mx-auto">
+                        <div className="col-lg-4 mx-auto text-center">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div className="soc_box">
-                                        <a className='soc_a' target={'_blank'} rel="noreferrer" href="!#">
-                                            <FontAwesomeIcon icon={faFacebookF} />
-                                        </a>
-                                        <p>Город Ташкент, Яшнабадский район, Улица Ташсельмаш 8.</p>
-                                    </div>
-                                    <div className="soc_box">
-                                        <a className='soc_a' target={'_blank'} rel="noreferrer" href="!#">
-                                            <FontAwesomeIcon icon={faInstagram} />
-                                        </a>
-                                        <p>+998 90 823 28 38</p>
-                                    </div>
-                                    <div className="soc_box">
-                                        <a className='soc_a' target={'_blank'} rel="noreferrer" href="!#">
-                                            <FontAwesomeIcon icon={faTelegram} />
-                                        </a>
-                                        <p>Ориентир: улица Боткина</p>
-                                    </div>
-                                </div>
 
+                                    <h3>Адресс</h3>
+                                    <p>г. Ташкент, Юнус-Абадский р-н, ул. Бодомзор, проезд 1, д. 85.</p>
+
+                                    <h3 className='myH3'>Телефон</h3>
+                                    <p>
+                                        <a href="tel: +998 78 129 70 70">+998 78 129 70 70</a>
+                                    </p>
+                                    <p>
+                                        <a href="tel: +998 98 124 31 24">+998 98 124 31 24</a>
+                                    </p>
+
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-4 mx-auto">
-                            <div className="map h-100">
+                            <div style={{height: "400px"}} className="map ">
                                 <iframe
                                     className="map_karta"
                                     title="Location"
